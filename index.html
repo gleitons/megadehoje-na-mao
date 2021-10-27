@@ -11,9 +11,9 @@
     
       <script>
          $(function () {
-            $("#header").load("header.html");
+            $("#header").load("models/header.html");
             $("#resultadoms").load("resultado-mega-sena.html");   
-            $("#footer").load("footer.html");
+            $("#footer").load("models/footer.html");
          });
       </script>
     <title>Mega de Hoje - Resultados da Mega Sena e Loteria Nacional</title>
@@ -21,8 +21,7 @@
 <body onload="megaSena2421()">
     <header>
         <div id="header"></div>
-        
-        <div>
+        <div class="imagemApresentacaoIndex">
             <div class="imagem-frontal">
                <div class="fundoMegaResultado">
                    <h1>Mega de Hoje</h1>
@@ -31,7 +30,9 @@
             </div>
         </div>
     </header>
+        
     <main>
+       
         <div><p>Menu acima e footer abaixo</p></div>
         <div id="resultadoms"></div>
     </main>

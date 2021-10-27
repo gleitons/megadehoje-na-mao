@@ -31,7 +31,7 @@ nav ul{
 }
 nav li {
     border-radius: 5px;
-    background: rgba(0, 128, 0, 0.815);
+    background: rgb(0, 68, 0);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 5px;
@@ -108,12 +108,29 @@ nav a:hover {
         display: block;
     }
 }
-
 .logo {
     margin-top: 10px;
-    padding-left: 20%;
-    min-width: 200px ;
+    padding-left: 10%;
+    min-width: 100px ;
     width: 200px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin-left: -50px;
+        
+    }
+}
+
+
+
+@media (max-width: 300px) {
+    .logo {
+        margin-top: 10px;
+        padding-left: 25%;
+        
+        width: 10px;
+    }
 }
 
 .centralizaImagem {
@@ -121,8 +138,12 @@ nav a:hover {
 }
 
 .imagem-frontal {
-    background-image: url(/imagens/fundo-mega-de-hoje-header-megadehoje.png);
+    background-image: url(/imagens/capas/index/fundo-mega-de-hoje-header-megadehoje.png);
+    background-size: cover;
+    background-position: fixed;
     margin-top: 0px;
+    
+    min-width: none;
     margin: -10px;
     text-align: center;
     padding: 7%;
@@ -136,9 +157,9 @@ nav a:hover {
 /*Abaixo controla o header no index inicial*/
 .fundoMegaResultado {
     margin: auto;
+    text-align: center;
     border-radius: 10px;
-    min-width: 300px;
-    max-width: 600px;
+    
     padding: 30px;
     background: rgba(4, 119, 4, 0.213);
     -webkit-backdrop-filter: blur(10px);

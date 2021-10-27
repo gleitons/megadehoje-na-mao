@@ -171,7 +171,7 @@
    /* border: black solid 1px;*/
 }
 .bordasImagemFora {
-    background-image: url(/imagens/dinheiro-mega-sena-capa.jpg);
+    background-image: url(/imagens/capas/mega-sena/dinheiro-mega-sena-capa.jpg);
     min-width: 300px;
     max-width: 800px;
     min-height: 300px;
@@ -262,5 +262,144 @@
     margin: auto;
     max-width: 800px;
     min-width: 300px;
+    width: 100%;
+}
+.linhaFlex {
+    display: flex;
+    
+}
+.capaPalpiteFora {
+    
+    width: 800px;
+    height: 400px;
+    background-image: url(/imagens/capas/mega-sena/blur-palpite-loteria.jpg);
+    background-size: cover;
+}
+.logoENomePalpite {
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+}
+.gradeInternaPalpite {
+    background-color: rgba(255, 255, 255, 0.529);
+    
+    height: 100%;
+    width: 100%;
+}
+.colunaEsquerdaPalpite {
+    background-image: radial-gradient( rgb(0, 84, 21), rgb(74, 167, 87));
+    border-radius: 15px;
+    color: white;
+    
+    box-shadow: rgb(1, 199, 40) 0px 0px 10px 0px;
+    border: rgba(79, 247, 107, 0.576) solid 1px;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+.colunaEsquerdaPalpite > h2 {
+    color: rgb(255, 255, 255);
+    background: #629552;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);               
+}
+.colunaEsquerdaPalpite > h1 {
+        color: #e0dfdc;
+        background: #556677;
+        letter-spacing: .1em;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626;
+        color: #e0dfdc;
+        background: #556677;
+        
+}
+.bolaPalpiteLoteria {
+    border-radius: 50%;
+    background-color: green;
+    background-image: linear-gradient(to top, green, rgb(0, 192, 64)) ;
+    box-shadow: inset -10px -10px 10px rgb(0, 46, 8), inset 3px 3px 5px rgba(255, 255, 255, 0.755);
+    margin: auto;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+.numeroPalpiteLoteria {
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0px;
+}
+.logoPalpiteLoteria > p {
+    background-color: black;
+    color: chartreuse;
+    font-size: 13px;
+}
+.linhaBolasPalpite {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+.linhaSorteioEValorPalpite {
+    text-align: center;
+}
+.descricaoPalpiteLoteriaN {
+    box-shadow: rgba(0, 0, 0, 0.664) 1px 1px 5px 1px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px;
+    background-color: rgb(1, 78, 149);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    
+   
+}
+.valorGeradoPalpite {
+    margin-left: 20%;
+    color: white;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    background-color: rgb(0, 112, 51);
+}
+@media (max-width: 600px) {
+    .linhaFlex {
+        display: block;
+    }
+    .capaPalpiteFora {
+    
+        width: 280px;
+        height: 550px;
+        
+    }
+    .numeroPalpiteLoteria {
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0px;
+    }
+    .linhaBolasPalpite {
+        display: flex;
+        margin: auto;
+        width: 90%;
+    }
+    .bolaPalpiteLoteria {
+        
+        margin: auto;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    .logoENomePalpite {
+        padding: 20px;
+        text-align: center;
+        width: 80%;
+        height: 30%;
+    }
+}
+.displayNonePalpite {
+    display: none;
+}
+.imagemDoPalpite {
     width: 100%;
 }
