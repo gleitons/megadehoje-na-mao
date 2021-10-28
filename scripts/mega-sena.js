@@ -20,7 +20,7 @@ function megaSena2423() {
     loteria = "Mega Sena"
     siteImage = "https://megadehoje.com"
 
-    diaDaSemana = "6"  
+    diaDaSemana = "3"  
     dataMega = ''
     if (diaDaSemana == "3") {
         dataMega = "quarta-feira"
