@@ -132,7 +132,7 @@ function megaSena2423() {
     diaEDataSorteioImage.innerHTML = `${dataMega}, ${data}`
     valorEstimadoImage.innerHTML = `Estimado em R$ ${premioSenaEstimado}`
 
-    rMegaA.innerHTML = `No concurso da Mega-sena passado, que foi o <strong>${cMegaPassado}</strong>, <strong>${rAcumulouPassado},</strong> as dezenas sorteadas foram:<strong> ${nS1} - ${nS2} - ${nS3} - ${nS4} - ${nS5} - ${nS6}</strong>. Foram <strong>${ganhadorSena}</strong> apostas vencedoras da sena, <strong>${ganhadorQuina}</strong> vencedores(as) que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ ${premioQuina} de reais</strong>. Já com 4 acertos (quadra) foram ${ganhadorQuadra} apostas ganhadoras, ficando cada um com de <strong>R$ ${premioQuadra}</strong> de reais. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.`
+    rMegaA.innerHTML = `É isso mesmo, saiu o resultado, o <strong>${cMegaPassado}</strong>, <strong>${rAcumulouPassado},</strong> as dezenas sorteadas foram:<strong> ${nS1} - ${nS2} - ${nS3} - ${nS4} - ${nS5} - ${nS6}</strong>. Foram <strong>${ganhadorSena}</strong> apostas vencedoras da sena, <strong>${ganhadorQuina}</strong> vencedores(as) que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ ${premioQuina} de reais</strong>. Já com 4 acertos (quadra) foram ${ganhadorQuadra} apostas ganhadoras, ficando cada um com de <strong>R$ ${premioQuadra}</strong> de reais. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.`
     titleVejaOResultado.innerHTML = `Concurso ${concurso} da mega-sena: Veja o resultado final.`
     
 
