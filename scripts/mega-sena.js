@@ -148,7 +148,7 @@ function megaSena2423() {
 
     loteriaM = loteria.toUpperCase()
     titleLoteriaNacional.innerHTML = `PALPITE DA ${loteriaM}`
-    nConcursoPalpite.innerHTML = `CONCURSO ${concursoP}`
+    nConcursoPalpite.innerHTML = `CONCURSO ${concurso + 1}`
     diaSorteioPalpite.innerHTML = `SORTEIO DIA ${pSorteio}`
     pEstimadoPalpite.innerHTML =  `R$ ${valorEstimado}`
 
@@ -361,7 +361,7 @@ function megaSena2422() {
 
     loteriaM = loteria.toUpperCase()
     titleLoteriaNacional.innerHTML = `PALPITE DA ${loteriaM}`
-    nConcursoPalpite.innerHTML = `CONCURSO ${concursoP}`
+    nConcursoPalpite.innerHTML = `CONCURSO ${concursoP + 1}`
     diaSorteioPalpite.innerHTML = `SORTEIO DIA ${pSorteio}`
     pEstimadoPalpite.innerHTML =  `R$ ${valorEstimado}`
 
