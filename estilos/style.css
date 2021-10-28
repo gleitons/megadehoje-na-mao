@@ -35,17 +35,24 @@ nav li {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 5px;
+    transition: 300ms;
 }
+nav li:hover {
+    background-color: rgb(107, 170, 12);
+}
+
 nav a {
     
     text-decoration: none;
     color: #ffffff;
+
+}
+nav a:hover {
+    color: black;
+    font-weight: 400;
 }
 
-nav a:hover {
-    color: #495057;
 
-}    
 .cabecalho{
     
     z-index: 9999;
@@ -212,9 +219,9 @@ inputt {
     margin: 3px;
 }
 .formulariopContato {
-    background-color: rgba(128, 128, 128, 0.439);
+    background-color: rgba(0, 112, 34, 0.439);
     margin: auto;
-    border: rgba(0, 106, 26, 0.713) solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.555) 1px 1px 5px 1px;
     border-radius: 10px;
     padding: 10px 20px;
     width: 450px;
@@ -233,6 +240,7 @@ inputt {
     margin: 0px;
 }
 .inputs {
+    border-radius: 08px;
     padding: 5px;
     margin-bottom: 10px;
     width: 100%;
