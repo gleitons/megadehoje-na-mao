@@ -67,12 +67,12 @@ function megaSena2423() {
     pConcursoPalpite = concurso + 1
 
     premioSenaEstimado = "32.977.458,14"
-    ganhadorSena = "aguardando"
-    premioSena = "aguardando"
-    ganhadorQuina = "aguardando"
-    premioQuina = "aguardando"
-    ganhadorQuadra = "aguardando"
-    premioQuadra = "aguardando"
+    ganhadorSena = "0"
+    premioSena = "ACUMULOU!"
+    ganhadorQuina = "40"
+    premioQuina = "82.766,60"
+    ganhadorQuadra = "3295"
+    premioQuadra = "1.435,36"
     acumulaOuGanhaP = ""
     premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
@@ -95,7 +95,7 @@ function megaSena2423() {
     /* Proximo Sorteio - Inserir Valores */
 
     pSorteio = " 30/10/2021"
-    valorEstimado = "Aguardando"
+    valorEstimado = "40.000.000,00"
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
