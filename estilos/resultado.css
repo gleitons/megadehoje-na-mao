@@ -403,3 +403,16 @@
 .imagemDoPalpite {
     width: 100%;
 }
+.colunaResultados {
+    display: flex;
+    margin: auto;
+}
+.propagandaResultados {
+    margin-left: auto;
+    padding-left: 5px;
+}
+@media (max-width: 300px) {
+    .colunaResultados {
+        display: block;
+        
+}
