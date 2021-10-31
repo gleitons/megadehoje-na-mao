@@ -131,7 +131,7 @@ function megaSena2424() {
     titleVejaOResultado.innerHTML = `Concurso ${concurso} da mega-sena: Veja o resultado final.`
     
 
-    comoJogarNaMegaSena.innerHTML = `A Mega-Sena paga milhões para o acertador dos 6 números sorteados. Ainda é possível ganhar prêmios ao acertar 4 ou 5 números dentre os 60 disponíveis no volante de apostas. Para realizar o sonho de ser o próximo milionário, você deve marcar de 6 a 15 números do volante, podendo deixar que o sistema escolha os números para você (Surpresinha) e/ou concorrer com a mesma aposta por 2, 4 ou 8 concursos consecutivos (Teimosinha).`
+    comoJogarNaMegaSena.innerHTML = `A Mega-Sena paga milhões para o acertador dos 6 números sorteados. Ainda é possível ganhar prêmios ao acertar 4 ou 5 números dentre os 60 disponíveis no volante de apostas. Para realizar o sonho de ser o próximo milionário, você deve marcar de 6 a 15 números do volante, podendo deixar que o sistema escolha os números para você (Surpresinha) e/ou concorrer com a mesma aposta por 2, 4 ou 8 concursos consecutivos (Teimosinha). <a href="http://bit.ly/aposte-online" target="_blank"><button>APOSTE ONLINE</button></a>`
 
     /*palpite da mega-sena */
     mseg1 = Math.floor(Math.random() * 60 + 1)
