@@ -64,10 +64,10 @@ function megaSena2424() {
     premioSenaEstimado = "40.618.759,48"
     ganhadorSena = "0"
     premioSena = "ACUMULOU!"
-    ganhadorQuina = "40"
-    premioQuina = "82.766,60"
-    ganhadorQuadra = "3295"
-    premioQuadra = "1.435,36"
+    ganhadorQuina = "101"
+    premioQuina = "41.070,64"
+    ganhadorQuadra = "6968"
+    premioQuadra = "850,44"
     acumulaOuGanhaP = ""
     premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
@@ -90,7 +90,7 @@ function megaSena2424() {
     /* Proximo Sorteio - Inserir Valores */
 
     pSorteio = " 03/11/2021"
-    valorEstimado = "Aguardando rateio..."
+    valorEstimado = "65.000.000,00"
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
