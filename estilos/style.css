@@ -270,6 +270,7 @@ inputt {
     
 }
 .botaoCliqueAqui {
+    cursor: pointer;
     background-color: rgb(255, 255, 255);
     padding: 12px;
     color: rgb(0, 0, 0);
@@ -277,6 +278,9 @@ inputt {
     font-weight: 700;
     box-shadow: rgb(50, 252, 0) 1px 1px 10px 1px;
 }
-
+.botaoCliqueAqui:hover{
+    background-color: chartreuse;
+    color: black;
+}
 /*Pagina DivResultados */
 

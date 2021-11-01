@@ -450,6 +450,7 @@
         display: block;
         width: 100%;
         margin: auto;
+       
     }
     .container {
         display: block;
@@ -462,4 +463,34 @@
 .imagemCapa {
     width: 100%;
 }
+.ultimosRMegaSena{
+    line-height: 2em;
+    text-align: center;
+    border: rgb(97, 97, 97) solid 1px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.ultimosRMegaSena a {
+    text-decoration: none;
+    transition: 100ms;
 
+}
+.ultimosRMegaSena a:hover {
+    background-image: linear-gradient(to bottom, rgb(149, 194, 149) 10%, rgb(209, 207, 207) 60%, rgba(146, 146, 146, 0.61) 30%);
+    border-radius: 12px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.blocosResultadosLoteria {
+    display: flex;
+    
+}
+@media (max-width: 500px) {
+    .blocosResultadosLoteria {
+        display: block;
+        
+    }
+    
+}
