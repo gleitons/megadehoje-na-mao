@@ -443,3 +443,23 @@
 .container {
     display: flex;
 }
+
+
+@media (max-width: 400px) {
+    .colunaFooter {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .container {
+        display: block;
+    }
+    .centralizarMenuPe {
+        display: block;
+    }
+}
+
+.imagemCapa {
+    width: 100%;
+}
+
