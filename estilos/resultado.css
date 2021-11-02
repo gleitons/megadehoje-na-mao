@@ -428,6 +428,14 @@
     display: flex;
     margin: auto;
 }
+@media (max-width: 800px) {
+    .colunaResultados {
+        display: block;
+        margin: auto;
+    }
+    
+}
+
 .propagandaResultados {
     margin-left: auto;
     padding-left: 5px;
@@ -447,8 +455,22 @@
     display: flex;
 }
 
+@media (max-width: 1024px) {
+    .colunaFooter {
+        display: block;
+        width: 100%;
+        margin: auto;
+       
+    }
+    .container {
+        display: block;
+    }
+    .centralizarMenuPe {
+        display: block;
+    }
+}
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .colunaFooter {
         display: block;
         width: 100%;
@@ -476,11 +498,12 @@
 }
 .ultimosRMegaSena a {
     text-decoration: none;
-    transition: 100ms;
+    transition: 199ms;
 
 }
+
 .ultimosRMegaSena a:hover {
-    background-image: linear-gradient(to bottom, rgb(149, 194, 149) 10%, rgb(209, 207, 207) 60%, rgba(146, 146, 146, 0.61) 30%);
+    background-image: linear-gradient(to bottom, rgb(162, 182, 162) 30%, rgb(209, 207, 207) 40%, rgba(73, 87, 74, 0.61) 99%);
     border-radius: 12px;
     padding: 5px;
     text-decoration: none;
