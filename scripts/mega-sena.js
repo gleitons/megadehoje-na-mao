@@ -37,19 +37,20 @@ function megaSena2425() {
     else {
         dataMega = "Dia não encontrado"
     } 
+    
     concurso = 2425
     data = "03/11/2021"
-    bola01 = "03"
+    bola01 = "10"
     nS1 = bola01
-    bola02 = "16"
+    bola02 = "31"
     nS2 = bola02
-    bola03 = "17"
+    bola03 = "38"
     nS3 = bola03
-    bola04 = "37"
+    bola04 = "46"
     nS4 = bola04
-    bola05 = "38"
+    bola05 = "49"
     nS5 = bola05
-    bola06 = "53"
+    bola06 = "54"
     nS6 = bola06  
     cMegaPassado = concurso
     concursoP = concurso
@@ -57,13 +58,13 @@ function megaSena2425() {
     concursoEmNumber = Number(concurso.value)
     pConcursoPalpite = concurso + 1
 
-    premioSenaEstimado = "65.000.000,00 </br> DAQUI A POUCO!!"
+    premioSenaEstimado = "65.076.630,90"
     ganhadorSena = "0"
-    premioSena = "ACUMULOU!"
-    ganhadorQuina = "101"
-    premioQuina = "41.070,64"
-    ganhadorQuadra = "6968"
-    premioQuadra = "850,44"
+    premioSena = "Aguardando rateio"
+    ganhadorQuina = "..."
+    premioQuina = "..."
+    ganhadorQuadra = "..."
+    premioQuadra = "..."
     acumulaOuGanhaP = ""
     premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
@@ -85,8 +86,8 @@ function megaSena2425() {
 
     /* Proximo Sorteio - Inserir Valores */
 
-    pSorteio = " 03/11/2021"
-    valorEstimado = "65.000.000,00"
+    pSorteio = " 06/11/2021"
+    valorEstimado = "...."
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
@@ -112,10 +113,10 @@ function megaSena2425() {
 
    
 
-    
+    TimeRanges.innerHTML = `<strong >${acumulaOuGanhaP}</strong> `
 
     tConcurso.innerHTML = `Resultado Mega-sena ${concurso} dia ${data} - ${dataMega}`
-    sTConcuros.innerHTML = `<strong>${acumulaOuGanhaP}</strong> Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
+    sTConcuros.innerHTML = `Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
     
     siteNaImagem.innerHTML = `<a href="megadehoje.com" target="_blank" rel="follow">megadehoje.com</a>`
     nomeDoSorteioImage.innerHTML = `${loteria}`
