@@ -175,6 +175,23 @@ nav a:hover {
     padding: 7%;
     
 }
+@media (max-width: 600px) {
+    .imagem-frontal {
+        background-image: url(/src/fundo-image-megadehoje-mobile.jpeg);
+        background-size: cover;
+        background-position: fixed;
+        margin-top: 0px;
+        
+        min-width: none;
+        margin: -10px;
+        text-align: center;
+        padding: 7%;
+        
+    }
+    
+}
+
+
 /*abaixo coloca a imagem 100% adotável - Funciona melhor para uma imagem*/
 .imageAuto {
     min-width: 300px;
