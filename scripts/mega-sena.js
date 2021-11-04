@@ -60,11 +60,11 @@ function megaSena2425() {
 
     premioSenaEstimado = "65.076.630,90"
     ganhadorSena = "0"
-    premioSena = "Aguardando rateio"
-    ganhadorQuina = "..."
-    premioQuina = "..."
-    ganhadorQuadra = "..."
-    premioQuadra = "..."
+    premioSena = "ACUMULOU!!"
+    ganhadorQuina = "75"
+    premioQuina = "57.727,72"
+    ganhadorQuadra = "5048"
+    premioQuadra = "1.225,26"
     acumulaOuGanhaP = ""
     premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
@@ -87,7 +87,7 @@ function megaSena2425() {
     /* Proximo Sorteio - Inserir Valores */
 
     pSorteio = " 06/11/2021"
-    valorEstimado = "...."
+    valorEstimado = "75.000.000,00"
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
@@ -113,10 +113,10 @@ function megaSena2425() {
 
    
 
-    TimeRanges.innerHTML = `<strong >${acumulaOuGanhaP}</strong> `
+    TimeRanges.innerHTML = ` `
 
     tConcurso.innerHTML = `Resultado Mega-sena ${concurso} dia ${data} - ${dataMega}`
-    sTConcuros.innerHTML = `Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
+    sTConcuros.innerHTML = `<strong >${acumulaOuGanhaP}</strong>. Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
     
     siteNaImagem.innerHTML = `<a href="megadehoje.com" target="_blank" rel="follow">megadehoje.com</a>`
     nomeDoSorteioImage.innerHTML = `${loteria}`
@@ -161,7 +161,7 @@ function megaSena2425() {
     descAbaixoPalpite.innerHTML = `<p style="text-align: center; margin: 0px;"><i>Veja os números gerados pra você, caso não goste, clique em </i><strong>"GERAR NOVOS NÚMEROS"</strong></p>`
     titleVejaOPalpite.innerHTML = `Palpite da da <strong>${loteriaMinusc}</strong>: Critérios.`
 
-    ImagemFundoP.innerHTML = `<a href="/resultados/mega-sena/resultado-mega-sena-${concurso}.html" target="_blank" rel="follow"><img class="imagemDoPalpite" src="/imagens/palpites/mega-sena/sorteio-mega-sena-${concurso}.jpg" alt="sorteio da mega sena ${concurso}"></a>`
+    ImagemFundoP.innerHTML = `<a href="/resultados/mega-sena/resultado-mega-sena-${concurso}.html" target="_blank" rel="follow"><img class="imagemDoPalpite" src="/imagens/palpites/mega-sena/sorteio-mega-sena-${concurso}.jpeg" alt="sorteio da mega sena ${concurso}"></a>`
 
     tiraStrong = sTPalpite.innerHTML.replace(/<strong>/gi, "")
     tiraStrongComplete = tiraStrong.replace(/</gi, "")
