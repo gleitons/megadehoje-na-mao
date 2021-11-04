@@ -68,7 +68,6 @@ nav a:hover {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     position: relative;
-    position: fixed;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.397) 1px 1px 10px 1px;  
     display: flex;
@@ -301,3 +300,15 @@ inputt {
 }
 /*Pagina DivResultados */
 
+.centralMega {
+    background-color: rgba(156, 191, 156, 0.673);
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.386) 1px 1px 10px 1px;
+}
+.colorIndex {
+    background-image: linear-gradient(to bottom, rgb(170, 215, 170), rgb(141, 237, 112));
+    padding: 50px;
+}
