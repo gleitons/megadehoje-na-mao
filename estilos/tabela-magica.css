@@ -1,0 +1,25 @@
+.tabelacompleta{
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+.fundocartao {
+    background-color: blanchedalmond;
+}
+.fundonumerocartao {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border-right: rgb(21, 21, 21) solid 1.5px;
+    border-left: rgb(21, 21, 21) solid 1.5px;
+    
+}
+.fundonumerocartao p {
+    text-align: center;
+    padding-top: 6px;
+    color: rgb(169, 169, 169);
+    
+}
+.topoTabelaMagica{
+    text-align: center;
+}
