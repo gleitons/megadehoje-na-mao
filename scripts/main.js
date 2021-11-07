@@ -1,4 +1,4 @@
-var numerosMegadaTabela = document.getElementById('div#numerosMegaSTabela');
+/*var numerosMegadaTabela = document.getElementById('div#numerosMegaSTabela');
 var numerosEscolhidos = [];
 var botaojogar = document.getElementById('gerarnumerosT')
 numerosMegadaTabela.addEventListener('click', function(cordefundo){
@@ -16,7 +16,7 @@ function validanumerosescolhidos() {
     if(numerosEscolhidos.length == 6){
         botaojogar.disabled = false;
     }
-}
+}*/
 
 
 
@@ -34,6 +34,8 @@ function toggleMenu() {
     nav.classList.toggle('active')
 }
 btnMobileM.addEventListener('click', toggleMenu)
+
+
 
 function voltar(){
     window.history.back()
