@@ -213,7 +213,8 @@ nav a:hover {
 }
 @media (max-width: 600px) {
     .fundoMegaResultado {
-        width: 300px;
+        width: 250px;
+        margin-left: 0px;
     }
     
 }
