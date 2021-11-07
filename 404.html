@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/resultado.css">
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script>
+         $(function () {
+            $("#header").load("models/header.html");
+            $("#footer").load("models/footer.html");
+         });
+      </script>
+    <title>Modelo de Head e Footer</title>
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+    <main>
+        <div>
+            <article>
+                <h1>Ops!! Aconteceu algo errado.</h1>
+                <div>
+                    <img style="width: 400px; margin: auto;" src="/src/erro-404-mega-de-hojeAtivo 1.svg" alt="Erro-404-pagina-nao-encontrada">
+                </div>
+                <p>A página que você está procurando não foi encontrada, volte ao inicio e veja mais informações</p>
+                <button><a href="/">Página Inicial</a></button>
+            </article>
+        </div>
+        
+    </main>
+    <div id="footer"></div>
+    
+</body>
+</html>
