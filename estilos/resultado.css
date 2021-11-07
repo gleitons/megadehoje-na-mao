@@ -476,7 +476,10 @@
     }
     .centralizarMenuPe {
         display: block;
+        
+        
     }
+    
 }
 
 @media (max-width: 600px) {
@@ -491,6 +494,9 @@
     }
     .centralizarMenuPe {
         display: block;
+        width: 150px;
+        margin: auto;
+        padding-top: 20px;
     }
 }
 

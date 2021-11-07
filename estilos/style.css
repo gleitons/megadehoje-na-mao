@@ -211,6 +211,12 @@ nav a:hover {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
+@media (max-width: 600px) {
+    .fundoMegaResultado {
+        width: 300px;
+    }
+    
+}
 
 inputt {
     display: block;
