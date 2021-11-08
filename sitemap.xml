@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+<!-- created with Scrutiny from https://peacockmedia.software -->
+
+	<url>
+		<loc>https://megadehoje.com</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/tabela-magica.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.naturfive.com/images/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/sobre.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/resultados.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/mega-sena-megadehoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/lotofacil/lotofacil-megadejoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/apostar-mega-sena-megadehoje.gif</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/contato.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/palpites.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/mega-sena-megadehoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/produtos.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/blog/jogar-na-mega-sena-online-megadehoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/blog/aposte-hoje-mesmo.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/facebook.svg</image:loc>
+		<image:title> facebook sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/twitter.svg</image:loc>
+		<image:title> twitter sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/pinterest.svg</image:loc>
+		<image:title> pinterest sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/email.svg</image:loc>
+		<image:title> email sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/sharethis.svg</image:loc>
+		<image:title> sharethis sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/sms.svg</image:loc>
+		<image:title> sms sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/arrow_left.svg</image:loc>
+		<image:title> arrow_left sharing button</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://platform-cdn.sharethis.com/img/arrow_right.svg</image:loc>
+		<image:title> arrow_right sharing button</image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-2425.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> palpite da mega sena</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/Flecha-33.gif</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/palpites/mega-sena/sorteio-mega-sena-2424.jpg</image:loc>
+		<image:title> sorteio da mega sena 2424</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/palpites/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-2424.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/mega-sena-2424.jpg</image:loc>
+		<image:title> Resultado da mega sena 2424</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/resultados/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-2423.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> palpite da mega sena</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/Flecha-33.gif</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/palpites/mega-sena/sorteio-mega-sena-2422.jpg</image:loc>
+		<image:title> sorteio da mega sena 2422</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/palpites/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-2425.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/mega-sena-2425.jpeg</image:loc>
+		<image:title> Resultado da mega sena 2425</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/resultados/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-2423.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/mega-sena-2423.jpg</image:loc>
+		<image:title> Resultado da mega sena 2423</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/resultados/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-2426.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/resultados/mega-sena/mega-sena-2426.jpeg</image:loc>
+		<image:title> Resultado da mega sena 2425</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/resultados/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-2422.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/resultados/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-2424.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> palpite da mega sena</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/Flecha-33.gif</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/palpites/mega-sena/sorteio-mega-sena-2423.jpg</image:loc>
+		<image:title> sorteio da mega sena 2423</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/palpites/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-2426.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> palpite da mega sena</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/Flecha-33.gif</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/palpites/mega-sena/sorteio-mega-sena-2425.jpeg</image:loc>
+		<image:title> sorteio da mega sena 2425</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/palpites/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-2427.html</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> palpite da mega sena</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/Flecha-33.gif</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/src/logo-mega-de-hoje.svg</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/capas/mega-sena/imagem-resultado-megasena.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/imagens/palpites/mega-sena/sorteio-mega-sena-2426.jpeg</image:loc>
+		<image:title> sorteio da mega sena 2426</image:title>
+		</image:image>
+		<image:image>
+		<image:loc>https://megadehoje.com/palpites/mega-sena/imagens/logo-mega-de-hoje-md.png</image:loc>
+		<image:title> </image:title>
+		</image:image>
+	</url>
+
+</urlset>
