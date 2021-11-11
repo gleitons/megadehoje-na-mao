@@ -59,12 +59,12 @@ function megaSena2427() {
     pConcursoPalpite = concurso + 1
     
     premioSenaEstimado = "90.907.066,96"
-    ganhadorSena = "..."
-    premioSena = "..."
-    ganhadorQuina = "..."
-    premioQuina = "..."
-    ganhadorQuadra = "..."
-    premioQuadra = "..."
+    ganhadorSena = "5"
+    premioSena = "18.181.413,39"
+    ganhadorQuina = "680"
+    premioQuina = "11.418,47"
+    ganhadorQuadra = "19557"
+    premioQuadra = "567,17"
     acumulaOuGanhaP = ""
     premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
@@ -76,7 +76,7 @@ function megaSena2427() {
     } else {
         acumulaOuGanhaP = "ACUMULOU!!"
         respostaPalpiteAcumulado = "como ninguém acertou as 06 dezenas, o prêmio estimado vai para"
-        acumulaOuGanha.innerHTML = `<div class="seAcumula" id="acumulaOuGanha">ACUMULOU!!</div>`
+        //acumulaOuGanha.innerHTML = `<div class="seAcumula" id="acumulaOuGanha">ACUMULOU!!</div>`
     }
 
     
@@ -87,7 +87,7 @@ function megaSena2427() {
     /* Proximo Sorteio - Inserir Valores */
 
     pSorteio = " 13/11/2021"
-    valorEstimado = "..."
+    valorEstimado = "3.000.000,00"
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
@@ -116,7 +116,7 @@ function megaSena2427() {
     TimeRanges.innerHTML = ` `
 
     tConcurso.innerHTML = `Resultado Mega-sena ${concurso} dia ${data} - ${dataMega}`
-    sTConcuros.innerHTML = `<strong ></strong>. Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
+    sTConcuros.innerHTML = `<strong >${acumulaOuGanhaP}</strong>. Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
     
     siteNaImagem.innerHTML = `<a href="megadehoje.com" target="_blank" rel="follow">megadehoje.com</a>`
     nomeDoSorteioImage.innerHTML = `${loteria}`
@@ -156,7 +156,7 @@ function megaSena2427() {
     /*FIM palpite da mega sena */
     pConcursoP.innerHTML = `Palpite da Mega-sena ${pConcursoPalpite} dia ${pSorteio} - APOSTE`
 
-    sTPalpite.innerHTML = `<strong>${acumulaOuGanhaP}.</strong> Sorteio da mega-sena anterior <strong>${concurso}</strong>, ${respostaPalpiteAcumulado} <strong>R$ ${valorEstimado}</strong> de reais. Quem sabe a sorte não bate em sua porte: <a href="http://bit.ly/aposte-online" target="_blank" rel="nofollow">APOSTE ONLINE</a> hoje mesmo.`
+    sTPalpite.innerHTML = `Sorteio da mega-sena anterior <strong>${concurso}</strong>, ${acumulaOuGanhaP}, próximo sorteio da mega sena, o valor estimado é <strong>R$ ${valorEstimado}</strong> de reais. Quem sabe a sorte não bate em sua porte: <a href="http://bit.ly/aposte-online" target="_blank" rel="nofollow">APOSTE ONLINE</a> hoje mesmo.`
 
     descAbaixoPalpite.innerHTML = `<p style="text-align: center; margin: 0px;"><i>Veja os números gerados pra você, caso não goste, clique em </i><strong>"GERAR NOVOS NÚMEROS"</strong></p>`
     titleVejaOPalpite.innerHTML = `Palpite da da <strong>${loteriaMinusc}</strong>: Critérios.`
