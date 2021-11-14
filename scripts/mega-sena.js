@@ -59,12 +59,12 @@ function megaSena2428() {
     pConcursoPalpite = concurso + 1
     
     premioSenaEstimado = "3.662.283,49"
-    ganhadorSena = "..."
-    premioSena = "..."
-    ganhadorQuina = "..."
-    premioQuina = "..."
-    ganhadorQuadra = "..."
-    premioQuadra = "..."
+    ganhadorSena = "0"
+    premioSena = "0"
+    ganhadorQuina = "50"
+    premioQuina = "39.761,94"
+    ganhadorQuadra = "4.168"
+    premioQuadra = "681,41"
     acumulaOuGanhaP = ""
     premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
@@ -76,7 +76,7 @@ function megaSena2428() {
     } else {
         acumulaOuGanhaP = "ACUMULOU!!"
         respostaPalpiteAcumulado = "como ninguém acertou as 06 dezenas, o prêmio estimado vai para"
-        //acumulaOuGanha.innerHTML = `<div class="seAcumula" id="acumulaOuGanha">ACUMULOU!!</div>`
+        acumulaOuGanha.innerHTML = `<div class="seAcumula" id="acumulaOuGanha">ACUMULOU!!</div>`
     }
 
     
@@ -87,7 +87,7 @@ function megaSena2428() {
     /* Proximo Sorteio - Inserir Valores */
 
     pSorteio = " 17/11/2021"
-    valorEstimado = "..."
+    valorEstimado = "8.000.000,00"
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
