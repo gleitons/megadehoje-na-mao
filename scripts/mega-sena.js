@@ -58,15 +58,15 @@ function megaSena2429() {
     concursoEmNumber = Number(concurso.value)
     pConcursoPalpite = concurso + 1
     
-    premioSenaEstimado = "7.284.779,96"
-    ganhadorSena = "0"
-    premioSena = "..."
-    ganhadorQuina = ".."
-    premioQuina = "..."
-    ganhadorQuadra = "..."
-    premioQuadra = "..."
-    acumulaOuGanhaP = ""
-    premioSenaEstimadoP = premioSenaEstimado
+    let premioSenaEstimado = "7.284.779,96"
+    let ganhadorSena = "0"
+    let premioSena = "0"
+    let ganhadorQuina = "31"
+    const premioQuina = "63.435,43"
+    const ganhadorQuadra = "2.462"
+    const premioQuadra = "1.141,05"
+    let acumulaOuGanhaP = ""
+    let premioSenaEstimadoP = premioSenaEstimado
     /*Premio Estimado e data Proximo Concurso */
     if (ganhadorSena != "0") {
         acumulaOuGanhaP = `${ganhadorSena} sortudos(as)`
@@ -87,7 +87,7 @@ function megaSena2429() {
     /* Proximo Sorteio - Inserir Valores */
 
     pSorteio = " 20/11/2021"
-    valorEstimado = "..."
+    valorEstimado = "38.000.000,00"
     
     
     concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
