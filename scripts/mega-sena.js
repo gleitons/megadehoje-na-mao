@@ -1,3 +1,89 @@
+function megaSena24xx(){
+    
+    let resultadoMS =  insereNumeros(2359, "10/09/2021", "7.000.000,00", 10, 20, 30, 40, 50, 60);
+    let proxresultado = ProxResult("s", 2355, "23/05/2021", "8.000.000,00");
+    tConcurso.innerHTML = `${resultadoMS}`
+    proxR.innerHTML = `${proxresultado}`
+
+}
+
+
+function insereNumeros (concurso, valor, bol01, bol02){
+    
+    
+    let subT = `ACUMULOU!!. Sorteio da mega-sena aconteceu hoje, sábado, com prêmio estimado em R$ ${valor} de reais, confira agora mesmo o resultado da mega-sena ${concurso}.Numeros da mega-sena ${bol01}, ${bol02}`  
+    
+
+    return subT;
+}
+
+function ProxResult(acu, concursoP, dataProx, valorP) {
+
+    if (acu == "s") {
+        var acoug = `ACUMULOU!!`   
+    } else {
+        var acoug = `Ganhadores`        
+    }
+
+    let InfoPConcurso = `${acoug}, proximo sorteio da mega-sena ${concursoP} vai pagar ${valorP}, será realizado no dia ${dataProx}`
+
+    return InfoPConcurso;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function megaSena2429() {
     
     /* 

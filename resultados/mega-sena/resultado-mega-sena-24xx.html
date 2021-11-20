@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="metad">
+    <meta name="description" content="Sorteio da mega-sena aconteceu hoje, sábado, com prêmio estimado em R$ 7.284.779,96 de reais, confira agora mesmo o resultado da mega-sena 2429.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/resultado.css">
+    <script src="/scripts/mega-sena.js"></script>
+    <script src="/scripts/main.js"></script>
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+    <link rel="import" href="">
+    
+      <script>
+         $(function () {
+            $("#header").load("/models/header.html");
+            $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
+            $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
+            $("#footer").load("/models/footer.html");
+         });
+      </script>
+    <title>Mega-sena 2429</title>
+</head>
+<body onload="megaSena24xx()">
+    <header>
+        <div id="header"></div>
+
+    </header>
+    <main>
+        <div class="corpoGeral">
+            <div>
+                <div class="maisNoticias"> 
+                    <!-- Titulo Resultado da Mega sena-->
+                    <h1 class="infodoJava"><div id="tConcurso">Aguardando Concurso mega-sena... <p class="recaLoad">Por favor, desative o bloqueador de anúncios para habilitar todas as funções do site gratuitamente => <button onclick="recarregarPagina()">Recarregar</button></p> </div></h1>
+                </div>
+                <div id="proxR">
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+</html>
