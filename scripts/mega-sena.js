@@ -84,6 +84,235 @@ function ProxResult(acu, concursoP, dataProx, valorP) {
 
 
 
+
+function megaSena2431() {
+    
+    /* 
+    1 - Segunda
+    2 - terça
+    3 - Quarta
+    4 - Quinta
+    5 - Sexta
+    6 - Sábado
+    7 - Domingo */
+    loteria = "Mega Sena"
+    siteImage = "https://megadehoje.com"
+
+    diaDaSemana = "3"  
+    dataMega = ''
+    if (diaDaSemana == "3") {
+        dataMega = "quarta-feira"
+    } 
+    else if (diaDaSemana == "4") {
+        dataMega = "quinta-feira"
+    } 
+    else if (diaDaSemana == "5") {
+        dataMega = "sexta-feira"
+    } 
+    else if (diaDaSemana == "6") {
+        dataMega = "sábado"
+    } 
+    else if (diaDaSemana == "7") {
+        dataMega = "domingo"
+    } 
+    else if (diaDaSemana == "1") {
+        dataMega = "terça-feira"
+    } 
+    else if (diaDaSemana == "2") {
+        dataMega = "terça-feira"
+    } 
+    else {
+        dataMega = "Dia não encontrado"
+    } 
+    081122252636
+    concurso = 2431
+    data = "22/11/2021"
+    bola01 = "08"
+    nS1 = bola01
+    bola02 = "11"
+    nS2 = bola02
+    bola03 = "22"
+    nS3 = bola03
+    bola04 = "25"
+    nS4 = bola04
+    bola05 = "26"
+    nS5 = bola05
+    bola06 = "36"
+    nS6 = bola06  
+    cMegaPassado = concurso
+    concursoP = concurso
+    dataP = data
+    concursoEmNumber = Number(concurso.value)
+    pConcursoPalpite = concurso + 1
+    
+    let premioSenaEstimado = "3.000.000,00"
+    let ganhadorSena = "0"
+    let premioSena = "0"
+    let ganhadorQuina = "46"
+    const premioQuina = "35.595,61"
+    const ganhadorQuadra = "2.988"
+    const premioQuadra = "782,84"
+    let acumulaOuGanhaP = ""
+    let premioSenaEstimadoP = premioSenaEstimado
+    /*Premio Estimado e data Proximo Concurso */
+    if (ganhadorSena != "0") {
+        acumulaOuGanhaP = `${ganhadorSena} sortudos(as)`
+        acumulaOuGanha.innerHTML = `<div class="seGanhador" id="acumulaOuGanha">${ganhadorSena} Ganhador(es)</div>`
+        
+        
+    } else {
+        acumulaOuGanhaP = "ACUMULOU!!"
+        respostaPalpiteAcumulado = "como ninguém acertou as 06 dezenas, o prêmio estimado vai para"
+        acumulaOuGanha.innerHTML = `<div class="seAcumula" id="acumulaOuGanha">ACUMULOU!!</div>`
+    }
+
+    
+    rAcumulouPassado = acumulaOuGanhaP
+
+    
+    
+
+    /* Proximo Sorteio - Inserir Valores */
+
+    pSorteio = " 27/11/2021"
+    valorEstimado = "7.000.000,00"
+    
+    
+    concursoData.innerHTML = `CONCURSO ${concurso} - DATA ${data}`
+    qtdSena.innerHTML = `${ganhadorSena} Pessoas`
+    pSena.innerHTML = `R$ ${premioSena}`
+
+    qtdQuina.innerHTML = `${ganhadorQuina} Pessoas`
+    pQuina.innerHTML = `R$ ${premioQuina}`
+
+    qtdQuadra.innerHTML = `${ganhadorQuadra} Pessoas`
+    pQuadra.innerHTML = `R$ ${premioQuadra}`
+   
+
+
+
+    
+    /* Novas variaveis para descrever concurso anterior */
+    ms01.innerHTML = `${bola01}`
+    ms02.innerHTML = `${bola02}`
+    ms03.innerHTML = `${bola03}`
+    ms04.innerHTML = `${bola04}`
+    ms05.innerHTML = `${bola05}`
+    ms06.innerHTML = `${bola06}`
+    proximoSorteio.innerHTML = `Próximo Sorteio: ${pSorteio} Prêmio Estimado: R$ ${valorEstimado}`
+
+    
+    TimeRanges.innerHTML = ` `
+
+    tConcurso.innerHTML = `Resultado Mega-sena ${concurso} dia ${data} - ${dataMega}`
+    sTConcuros.innerHTML = `<strong >${acumulaOuGanhaP}</strong>. Sorteio da mega-sena aconteceu hoje, ${dataMega}, com prêmio estimado em R$ ${premioSenaEstimado} de reais, confira agora mesmo o resultado da mega-sena <strong>${concurso}</strong>.`
+    
+    siteNaImagem.innerHTML = `<a href="megadehoje.com" target="_blank" rel="follow">megadehoje.com</a>`
+    nomeDoSorteioImage.innerHTML = `${loteria}`
+    numeroDoSorteioImage.innerHTML = `Concurso ${concurso}`
+    diaEDataSorteioImage.innerHTML = `${dataMega}, ${data}`
+    valorEstimadoImage.innerHTML = `Estimado em R$ ${premioSenaEstimado}`
+
+    rMegaA.innerHTML = `É isso mesmo, saiu o resultado, o <strong>${cMegaPassado}</strong>, <strong>${rAcumulouPassado},</strong> as dezenas sorteadas foram:<strong> ${nS1} - ${nS2} - ${nS3} - ${nS4} - ${nS5} - ${nS6}</strong>. Foram <strong>${ganhadorSena}</strong> apostas vencedoras da sena, <strong>${ganhadorQuina}</strong> vencedores(as) que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ ${premioQuina} de reais</strong>. Já com 4 acertos (quadra) foram ${ganhadorQuadra} apostas ganhadoras, ficando cada um com de <strong>R$ ${premioQuadra}</strong> de reais. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.`
+    titleVejaOResultado.innerHTML = `Concurso ${concurso} da mega-sena: Veja o resultado final.`
+    
+
+    comoJogarNaMegaSena.innerHTML = `A Mega-Sena paga milhões para o acertador dos 6 números sorteados. Ainda é possível ganhar prêmios ao acertar 4 ou 5 números dentre os 60 disponíveis no volante de apostas. Para realizar o sonho de ser o próximo milionário, você deve marcar de 6 a 15 números do volante, podendo deixar que o sistema escolha os números para você (Surpresinha) e/ou concorrer com a mesma aposta por 2, 4 ou 8 concursos consecutivos (Teimosinha). <a href="http://bit.ly/aposte-online" target="_blank"><button>APOSTE ONLINE</button></a>`
+
+    /*palpite da mega-sena */
+    mseg1 = Math.floor(Math.random() * 60 + 1)
+    mseg2 = Math.floor(Math.random() * 60 + 1)
+    mseg3 = Math.floor(Math.random() * 60 + 1)
+    mseg4 = Math.floor(Math.random() * 60 + 1)
+    mseg5 = Math.floor(Math.random() * 60 + 1)
+    mseg6 = Math.floor(Math.random() * 60 + 1)
+
+    loteriaM = loteria.toUpperCase()
+    titleLoteriaNacional.innerHTML = `PALPITE DA ${loteriaM}`
+    nConcursoPalpite.innerHTML = `CONCURSO ${concurso + 1}`
+    diaSorteioPalpite.innerHTML = `SORTEIO DIA ${pSorteio}`
+    pEstimadoPalpite.innerHTML =  `R$ ${valorEstimado}`
+
+    palpiteN1.innerHTML = `${mseg1}`
+    palpiteN2.innerHTML = `${mseg2}`
+    palpiteN3.innerHTML = `${mseg3}`
+    palpiteN4.innerHTML = `${mseg4}`
+    palpiteN5.innerHTML = `${mseg5}`
+    palpiteN6.innerHTML = `${mseg6}`
+    loteriaMinusc = loteriaM.toLowerCase()
+
+    rPalpiteMega.innerHTML = `Os nossos palpites da <strong>${loteriaMinusc}</strong> são baseado no horário atual, a previsão não é certo, mas recebemos depoimentos de acerto na quadra, se aparecer um jogo do palpite da <strong>${loteriaMinusc}</strong> que faça sentir confiança, não perca a oportunidade e aposte, lembre-se que, com apenas um jogo, de seis números, você pode ser o vencedor e faturar os <strong>R$ ${valorEstimado}</strong> de reais da mega-sena <strong>${concursoP+1}</strong> do dia <strong>${pSorteio}</strong>.`
+    /*FIM palpite da mega sena */
+    pConcursoP.innerHTML = `Palpite da Mega-sena ${pConcursoPalpite} dia ${pSorteio} - APOSTE`
+
+    
+
+    descAbaixoPalpite.innerHTML = `<p style="text-align: center; margin: 0px;"><i>Veja os números gerados pra você, caso não goste, clique em </i><strong>"GERAR NOVOS NÚMEROS"</strong></p>`
+    titleVejaOPalpite.innerHTML = `Palpite da da <strong>${loteriaMinusc}</strong>: Critérios.`
+
+    ImagemFundoP.innerHTML = `<a href="/resultados/mega-sena/resultado-mega-sena-${concurso}.html" target="_blank" rel="follow"><img class="imagemDoPalpite" src="/imagens/palpites/mega-sena/sorteio-mega-sena-${concurso}.jpeg" alt="sorteio da mega sena ${concurso}"></a>`
+
+    tiraStrong = sTPalpite.innerHTML.replace(/<strong>/gi, "")
+    tiraStrongComplete = tiraStrong.replace(/</gi, "")
+    contentSite = `Palpite da ${loteriaMinusc}, concurso ${concursoP+1}, prêmio estimado em R$ ${valorEstimado} de reais, quem sabe a sorte não bate em sua porta, veja os palpites.`
+    sTPalpite.innerHTML = `Sorteio da mega-sena anterior <strong>${concurso}</strong>, ${acumulaOuGanhaP}, próximo sorteio da mega sena, o valor estimado é <strong>R$ ${valorEstimado}</strong> de reais. Quem sabe a sorte não bate em sua porte: <a href="http://bit.ly/aposte-online" target="_blank" rel="nofollow">APOSTE ONLINE</a> hoje mesmo.`
+
+
+    enderecoLink = window.location.href
+    titleTwitterEFacebook = pConcursoP.innerHTML
+    descricaoTwitterEFacebook = sTPalpite.innerHTML
+    titleContent = `Mega de Hoje - Resultados da Loteria Nacional`
+    metadesc.innerHTML = `<meta name="keywords" content="palpite ${loteriaMinusc} ${concursoP+1}, como ganhar na "${loteriaMinusc}>  <meta name="description" content="Como ganhar na ${loteriaMinusc}, concurso ${concursoP+1}, prêmio de R$ ${valorEstimado} pode ser seu, confira os palpites da ${loteriaMinusc} ">  
+    
+    <link rel="canonical" href="${enderecoLink}" />
+    <meta name="robots" content="index, follow" /><meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="${titleTwitterEFacebook}">
+    <meta name="twitter:description" content="${tiraStrongComplete}">
+    <meta name="twitter:image" content="https://megadehoje.com/imagens/palpites/mega-sena/palpite-mega-sena-${concursoP+1}.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="${titleContent}">
+    <meta property="og:title" content="${contentSite}">
+    <meta property="og:description" content="${contentSite}">
+    <meta property="og:url" content="${enderecoLink}"> 
+    <meta property="og:image" content="https://megadehoje.com/imagens/palpites/mega-sena/palpite-mega-sena-${concursoP+1}.jpg">`
+    carregarMeta.innerHTML = `<meta name="keywords" content="palpite ${loteriaMinusc} ${concursoP+1}, como ganhar na "${loteriaMinusc}>  <meta name="description" content="Como ganhar na ${loteriaMinusc}, concurso ${concursoP+1}, prêmio de R$ ${valorEstimado} pode ser seu, confira os palpites da ${loteriaMinusc} ">  
+    
+    <link rel="canonical" href="${enderecoLink}" />
+    <meta name="robots" content="index, follow" /><meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="${titleTwitterEFacebook}">
+    <meta name="twitter:description" content="${tiraStrongComplete}">
+    <meta name="twitter:image" content="https://megadehoje.com/imagens/palpites/mega-sena/palpite-mega-sena-${concursoP+1}.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="${titleContent}">
+    <meta property="og:title" content="${contentSite}">
+    <meta property="og:description" content="${contentSite}">
+    <meta property="og:url" content="${enderecoLink}"> 
+    <meta property="og:image" content="https://megadehoje.com/imagens/palpites/mega-sena/palpite-mega-sena-${concursoP+1}.jpg">
+    `
+    
+    
+    
+    
+    /* Produção de MetaTag mega-sena */
+
+
+    
+    
+
+    var enviarResultAnterior = rMegaA.innerHTML
+
+    res.innerHTML = `${enviarResultAnterior}`
+
+    return enviarResultAnterior
+
+    
+
+    
+    
+    /*Para o blog */
+    
+    
+}
 function megaSena2430() {
     
     /* 
@@ -257,6 +486,19 @@ function megaSena2430() {
     titleTwitterEFacebook = pConcursoP.innerHTML
     descricaoTwitterEFacebook = sTPalpite.innerHTML
     titleContent = `Mega de Hoje - Resultados da Loteria Nacional`
+    metadesc.innerHTML = `<meta name="keywords" content="palpite ${loteriaMinusc} ${concursoP+1}, como ganhar na "${loteriaMinusc}>  <meta name="description" content="Como ganhar na ${loteriaMinusc}, concurso ${concursoP+1}, prêmio de R$ ${valorEstimado} pode ser seu, confira os palpites da ${loteriaMinusc} ">  
+    
+    <link rel="canonical" href="${enderecoLink}" />
+    <meta name="robots" content="index, follow" /><meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="${titleTwitterEFacebook}">
+    <meta name="twitter:description" content="${tiraStrongComplete}">
+    <meta name="twitter:image" content="https://megadehoje.com/imagens/palpites/mega-sena/palpite-mega-sena-${concursoP+1}.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="${titleContent}">
+    <meta property="og:title" content="${contentSite}">
+    <meta property="og:description" content="${contentSite}">
+    <meta property="og:url" content="${enderecoLink}"> 
+    <meta property="og:image" content="https://megadehoje.com/imagens/palpites/mega-sena/palpite-mega-sena-${concursoP+1}.jpg">`
     carregarMeta.innerHTML = `<meta name="keywords" content="palpite ${loteriaMinusc} ${concursoP+1}, como ganhar na "${loteriaMinusc}>  <meta name="description" content="Como ganhar na ${loteriaMinusc}, concurso ${concursoP+1}, prêmio de R$ ${valorEstimado} pode ser seu, confira os palpites da ${loteriaMinusc} ">  
     
     <link rel="canonical" href="${enderecoLink}" />
@@ -669,7 +911,7 @@ function megaSena2428() {
     /*FIM palpite da mega sena */
     pConcursoP.innerHTML = `Palpite da Mega-sena ${pConcursoPalpite} dia ${pSorteio} - APOSTE`
 
-    sTPalpite.innerHTML = `Sorteio da mega-sena anterior <strong>${concurso}</strong>, ${acumulaOuGanhaP}, próximo sorteio da mega sena, o valor estimado é <strong>R$ ${valorEstimado}</strong> de reais. Quem sabe a sorte não bate em sua porte: <a href="http://bit.ly/aposte-online" target="_blank" rel="nofollow">APOSTE ONLINE</a> hoje mesmo.`
+    sTPalpite.innerHTML = `Sorteio da mega-sena anterior <strong>${concurso}</strong>, ${acumulaOuGanhaP}, próximo sorteio da mega sena, o valor estimado era de <strong>R$ ${valorEstimado}</strong> de reais. Quem sabe a sorte não bate em sua porte nesse sorteio de agora: <a href="http://bit.ly/aposte-online" target="_blank" rel="nofollow">APOSTE ONLINE</a> hoje mesmo.`
 
     descAbaixoPalpite.innerHTML = `<p style="text-align: center; margin: 0px;"><i>Veja os números gerados pra você, caso não goste, clique em </i><strong>"GERAR NOVOS NÚMEROS"</strong></p>`
     titleVejaOPalpite.innerHTML = `Palpite da da <strong>${loteriaMinusc}</strong>: Critérios.`
