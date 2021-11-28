@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/resultado.css">
+    <script>
+        $(function () {
+           $("#header").load("/models/header.html");
+           $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
+           $("#palpiteMs").load("/models/capa-palpite-mega-sena.html"); 
+           $("#avisoImportante").load("/models/aviso-importante.html");    
+           $("#geradorMetaTags").load("/models/gerador-meta-tags.html");   
+                 
+           $("#probabilidadeMS").load("/models/probabilidade-mega-sena.html"); 
+           $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
+           $("#footer").load("/models/footer.html");
+       
+        });
+     </script>
+    <title>Todos os resultados da mega-sena</title>
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+    <main>
+        <div>
+            <h1>EM CONSTRUÇÃO - EM BREVE ESTAREMOS ONLINE</h1>
+            <div style="margin: auto;"><img  src="/src/em-construcao-todos-os-resultados-loteria-nacional.png" alt="estamos adequando todos os resultados"></div>
+            <a href="/"><button>Voltar</button></a>
+        </div>
+        
+    </main>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+</html>

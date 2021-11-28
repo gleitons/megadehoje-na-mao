@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/resultado.css">
+    <script>
+        $(function () {
+           $("#header").load("/models/header.html");
+           $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
+           $("#palpiteMs").load("/models/capa-palpite-mega-sena.html"); 
+           $("#avisoImportante").load("/models/aviso-importante.html");    
+           $("#geradorMetaTags").load("/models/gerador-meta-tags.html");   
+                 
+           $("#probabilidadeMS").load("/models/probabilidade-mega-sena.html"); 
+           $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
+           $("#footer").load("/models/footer.html");
+       
+        });
+     </script>
+    <title>Todos os resultados</title>
+</head>
+<body>
+    <header>
+        <div id="header"></div>
+    </header>
+    <main>
+        <h1>Todos os resultados da loteria nacional</h1>
+        <a href="/todos-os-resultados/mega-sena.html"><button>Mega-sena</button></a>
+        <a href="/todos-os-resultados/lotofacil.html"><button>Lotofácil</button></a>
+    </main>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</body>
+</html>
