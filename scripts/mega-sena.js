@@ -121,7 +121,7 @@ function megaSena2432() {
     else {
         dataMega = "Dia não encontrado"
     } 
-    081122252636
+    
     concurso = 2432
     data = "28/11/2021"
     bola01 = "07"
