@@ -61,7 +61,12 @@ function ProxResult(acu, concursoP, dataProx, valorP) {
 
 
 
-
+function anuncioslocal() {
+    const anu = "<script async src=";
+    const nci = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247"
+    const o = "crossorigin=anonymous>\"</script>";
+    anuncios.innerHTML = `${anu}${nci}${o}`
+}
 
 
 
