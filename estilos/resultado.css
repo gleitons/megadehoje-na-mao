@@ -4,7 +4,14 @@
     --padding10Px: 2px 10px;
 }
 
-
+.subtR > p{
+    font-size: 20px;
+    font-weight: normal;
+}
+.subtR > h2{
+    font-size: 25px;
+    font-weight: 800;
+}
 
 
 .tabelaResultado {
@@ -19,6 +26,7 @@
     margin-top: 20px;
 }
 
+
 .proximoSorteio {
     text-align: center;
     margin-top: 10px;
@@ -31,6 +39,7 @@
 }
 .bolasms {
     border: rgb(131, 131, 131) 1px;
+    
     border-radius: 50%;
     margin-left: 10px;
     box-shadow: rgba(0, 0, 0, 0.398) 1px 1px 5px 1px;    
@@ -45,6 +54,7 @@
     display: flex;
     
 }
+
 
 .numeros {
     text-align: center;
@@ -103,16 +113,19 @@
     background-color: var(--verdeclaro) ;
     padding: var(--padding10Px);
     width: 10%;
+    font-size: 15px;
 }
 .ganhadores {
     background-color: var(--verdeEcuro);
     padding: var(--padding10Px);
     width: auto;
+    font-size: 15px;
 }
 .premio {
     background-color: var(--verdeclaro) ;
     padding: var(--padding10Px);
     width: auto;
+    font-size: 15px;
 }
 .seAcumula {
     background-color: rgb(22, 160, 4);
