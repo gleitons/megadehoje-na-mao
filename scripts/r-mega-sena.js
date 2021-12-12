@@ -119,7 +119,7 @@ function palpiteProxSorteio (dataPalpite, ValorPr, nConcursoMS){
 
     const PalpiteConstrutoraMS = `<h1>Palpite da mega-sena ${nConcursoMS}</h1>
     <i>
-        <h2 style="font-size: 23px; font-weight: normal;">Palpite da mega-sena ${nConcursoMS}, ${dataPalpite}, com prêmio estimado em R$ 3${ValorPr} de reais, <button>APOSTE HOJE MESMO</button>.</h2>
+        <h2 style="font-size: 23px; font-weight: normal;">Palpite da mega-sena ${nConcursoMS}, ${dataPalpite}, com prêmio estimado em R$ ${ValorPr} de reais, <button>APOSTE HOJE MESMO</button>.</h2>
     </i>
 
     <div class="vis capaPalpiteFora">
