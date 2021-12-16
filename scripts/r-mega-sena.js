@@ -1,8 +1,8 @@
 function megaSena2438(){
     /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
-    const resultadoMS =  insereNumeros(2338, "15/12/2021", "6.549.381,39", 04, 11, 19, 25, 37, 55, 3, premiosMegaSena = premiosMS (1, "6.549.381,39", 99, "19.581,95", "5.073", "545,91"), proxSorteio("18/12/2021", "3.000.000,00", 2339));
+    const resultadoMS =  insereNumeros(2438, "15/12/2021", "6.549.381,39", 04, 11, 19, 25, 37, 55, 3, premiosMegaSena = premiosMS (1, "6.549.381,39", 99, "19.581,95", "5.073", "545,91"), proxSorteio("18/12/2021", "3.000.000,00", 2339));
     
-    const palpiteMSCorreto = palpiteProxSorteio("18/12/2021", "3.000.000,00", 2339);
+    const palpiteMSCorreto = palpiteProxSorteio("18/12/2021", "3.000.000,00", 2439);
 
     palpiteMSM.innerHTML = `${palpiteMSCorreto} ${resultadoMS}`;
     tConcurso.innerHTML = `${resultadoMS}`  
