@@ -1,3 +1,17 @@
+function megaSena2438(){
+    /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
+    const resultadoMS =  insereNumeros(2338, "15/12/2021", "6.549.381,39", 04, 11, 19, 25, 37, 55, 3, premiosMegaSena = premiosMS (1, "6.549.381,39", 99, "19.581,95", "5.073", "545,91"), proxSorteio("18/12/2021", "3.000.000,00", 2339));
+    
+    const palpiteMSCorreto = palpiteProxSorteio("18/12/2021", "3.000.000,00", 2339);
+
+    palpiteMSM.innerHTML = `${palpiteMSCorreto} ${resultadoMS}`;
+    tConcurso.innerHTML = `${resultadoMS}`  
+    
+}
+04, 11, 19, 25, 37, 55
+
+
+
 function megaSena2437(){
     /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
     const resultadoMS =  insereNumeros(2337, "11/12/2021", "3.000.000,00", 01, 19, 41, 46, 48, 55, 6, premiosMegaSena = premiosMS (0, "Não houve ganhadores", 16, "101.047,85", "1.416", "1.631,11"), proxSorteio("15/12/2021", "6.500.000,00", 2338));
