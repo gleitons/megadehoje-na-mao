@@ -23,3 +23,50 @@
     display: none; 
     background-color: rgb(230, 249, 230);
 }
+.tMagica{
+    border: solid black 1px;
+    height: 250px;
+    
+    width: 400px;
+}
+.tdNumber{
+    text-align: center;
+    border: black solid 1px;
+    font-size: 30px;
+}
+.contagemNMS{
+    background-color: blanchedalmond;
+    border-bottom: rgb(157, 157, 157) solid 5px;
+    
+}
+.lDireito{
+    background-color: rgb(252, 255, 197);
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    border-bottom: black solid 1px;
+}
+.tipoN {
+    
+}
+.probabilidadeS{
+    background-color: burlywood;
+    padding: 10px;
+}
+.Distinto{
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.probDireito {
+    padding-top: 10px;
+}
+.bolaPalpite {
+    padding: 10px;
+    background-image: linear-gradient(120deg, rgb(52, 171, 95), rgb(0, 52, 16));
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+}

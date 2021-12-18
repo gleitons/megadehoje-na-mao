@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="/estilos/resultado.css">
     <link rel="stylesheet" href="estilos/tabela-magica.css">
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <title>Tabelas Mágicas</title>
 </head>
-<body >
-    <header>
+<body onload="calculoTabelaM()" >
+
+    <header style="width: 400px;">
         <div class="cabecalho">
             <div class="logo"  id="logoId" >
                 <a href="/"><img src="/src/logo-mega-de-hoje.png" alt=""></a>
@@ -36,101 +38,192 @@
             </div>
         </div>
     </header>
-    
-        <h1>Tabela Mágica da Mega-sena</h1>
-        <h2>Essa tabela é mágica e irá gerar os possíveis numeros da mega-sena</h2>
-        <p>Como funciona: Você vai inserir o resultado do último concurso da mega-sena, assim ela vai calcular e te mostrar os próximos números.</p>
-        <h2>Tabela em construção</h2>
+    <main>
 
-        <div class="tabelacompleta">
-            <div>
-                <div>
-                    <img style="width: 100%;" src="https://www.naturfive.com/images/logo-mega-de-hoje.png" alt="">
-                </div>
-                <div style="text-align: center;" id="numerosMegaSTabela">
-                    
-                         <span class="fcartao" id="sb01">01</span>
-                         <span class="fcartao" id="sb02">02</span>
-                         <div class="fcartao" id="sb03">03</div>
-                         <div class="fcartao" id="sb04">04</div>
-                         <div class="fcartao" id="sb05">05</div>
-                         <div class="fcartao" id="sb06">06</div>
-                         <div class="fcartao" id="sb07">07</div>
-                         <div class="fcartao" id="sb08">08</div>
-                         <div class="fcartao" id="sb09">09</div>
-                         <div class="fcartao" id="sb10">10</div>
-                        <br>
-                    
-                    
-                        <div class="fcartao" id="sb11">11</div>
-                        <div class="fcartao" id="sb12">12</div>
-                        <div class="fcartao" id="sb13">13</div>
-                        <div class="fcartao" id="sb14">14</div>
-                        <div class="fcartao" id="sb15">15</div>
-                        <div class="fcartao" id="sb16">16</div>
-                        <div class="fcartao" id="sb17">17</div>
-                        <div class="fcartao" id="sb18">18</div>
-                        <div class="fcartao" id="sb19">19</div>
-                        <div class="fcartao" id="sb20">20</div>
-                        <br>        
-                                 
-                        <div class="fcartao" id="sb21">21</div>
-                        <div class="fcartao" id="sb22">22</div>
-                        <div class="fcartao" id="sb23">23</div>
-                        <div class="fcartao" id="sb24">24</div>
-                        <div class="fcartao" id="sb25">25</div>
-                        <div class="fcartao" id="sb26">26</div>
-                        <div class="fcartao" id="sb27">27</div>
-                        <div class="fcartao" id="sb28">28</div>
-                        <div class="fcartao" id="sb29">29</div>
-                        <div class="fcartao" id="sb30">30</div>
-                        <br>
-                    
-                        <div class="fcartao" id="sb31">31</div>
-                        <div class="fcartao" id="sb32">32</div>
-                        <div class="fcartao" id="sb33">33</div>
-                        <div class="fcartao" id="sb34">34</div>
-                        <div class="fcartao" id="sb35">35</div>
-                        <div class="fcartao" id="sb36">36</div>
-                        <div class="fcartao" id="sb37">37</div>
-                        <div class="fcartao" id="sb38">38</div>
-                        <div class="fcartao" id="sb39">39</div>
-                        <div class="fcartao" id="sb40">40</div>
-                        <br>        
-                                   
-                        <div class="fcartao" id="sb41">41</div>
-                        <div class="fcartao" id="sb42">42</div>
-                        <div class="fcartao" id="sb43">43</div>
-                        <div class="fcartao" id="sb44">44</div>
-                        <div class="fcartao" id="sb45">45</div>
-                        <div class="fcartao" id="sb46">46</div>
-                        <div class="fcartao" id="sb47">47</div>
-                        <div class="fcartao" id="sb48">48</div>
-                        <div class="fcartao" id="sb49">49</div>
-                        <div class="fcartao" id="sb50">50</div>
-                    <br>
-                   
-                    <div class="fcartao" id="sb51">51</div>
-                    <div class="fcartao" id="sb52">52</div>
-                    <div class="fcartao" id="sb53">53</div>
-                    <div class="fcartao" id="sb54">54</div>
-                    <div class="fcartao" id="sb55">55</div>
-                    <div class="fcartao" id="sb56">56</div>
-                    <div class="fcartao" id="sb57">57</div>
-                    <div class="fcartao" id="sb58">58</div>
-                    <div class="fcartao" id="sb59">59</div>
-                    <div class="fcartao" id="sb60">60</div>
-                               
-                </div>
-                <div>
-                    <button id="gerarnumerosT">GERAR NUMEROS</button>
-                </div>
-            <div id="mostrartabela"></div>
-
-                <div id="geradorTabelaMagica"></div>
-            </div>
+        <div id="resultTabela">
+            <h1>Tabela Mágica da Mega-sena</h1>
+            <h2>Contagem e dados do Sorteio 2438</h2>
+            <p>RESULTADO:   10, 20, 30, 40, 50, 60</p>
+            <table class="contagemNMS">
+                <tr class="tipoN">
+                    <td class="lEsquerdo">NUMERO DO SORTEIO: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+                <tr class="tipoN">
+                    <td class="lEsquerdo">IMPARES: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+                <tr class="tipoN">
+                    <td class="lEsquerdo">PARES: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+                <tr class="tipoN">
+                    <td class="lEsquerdo">PRIMOS: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+                <tr class="tipoN">
+                    <td class="lEsquerdo">SOMA DOS PARES: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+                <tr class="tipoN">
+                    <td class="lEsquerdo">SOMA DOS IMPARES: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+                <tr class="tipoN">
+                    <td class="lEsquerdo">SOMA TOTAL: </td>
+                    <td class="lDireito">5</td>
+                </tr>
+            </table>
+            <h1>Tabela da Mega-sena, Ganhe agora!!</h1>
+            <table class="tMagica">
+                <tr class="blocsNumber">
+                    <td class="tdNumber">65</td>
+                    <td class="tdNumber">55</td>
+                    <td class="tdNumber">59</td>
+                    <td class="tdNumber">59</td>
+                </tr>
+                <tr class="blocsNumber">
+                    <td class="tdNumber">55</td>
+                    <td class="tdNumber">45</td>
+                    <td class="tdNumber">65</td>
+                    <td class="tdNumber">35</td>
+                </tr>
+                <tr class="blocsNumber">
+                    <td class="tdNumber">52</td>
+                    <td class="tdNumber">25</td>
+                    <td class="tdNumber">65</td>
+                    <td class="tdNumber">57</td>
+                </tr>
+                <tr class="blocsNumber">
+                    <td class="tdNumber">52</td>
+                    <td class="tdNumber">95</td>
+                    <td class="tdNumber">65</td>
+                    <td class="tdNumber">51</td>
+                </tr>
+                
+            </table>
+            <h2>PROBABILIDADE</h2>
+            <table class="probabilidadeS">
+                <tr class="Distinto">
+                    <td>MAIOR PROBABILIDADE DE SAIR: </td>
+                    <td class="probDireito">55, 93, 88, 25, 25, 10, 15, 26, 66</td>
+                </tr>
+                <tr class="Distinto">
+                    <td>MENOR PROBABILIDADE DE SAIR: </td>
+                    <td class="probDireito">55, 93, 88, 25, 25, 10, 15, 26, 66</td>
+                </tr>
+                <tr class="Distinto">
+                    <td>ESCOLHA ENTRE NOSSOS PALPITES: </td>
+                    <td class="probDireito"><strong>55, 93, 88, 25, 25, 10, 15, 26, 66</strong></td>
+                </tr>
+            </table>
         </div>
-    
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <div style="display: none;">
+        
+            <h1>Tabela Mágica da Mega-sena</h1>
+            <h2>Essa tabela é mágica e irá gerar os possíveis numeros da mega-sena</h2>
+            <p>Como funciona: Você vai inserir o resultado do último concurso da mega-sena, assim ela vai calcular e te mostrar os próximos números.</p>
+            <h2>Tabela em construção</h2>
+            <div class="tabelacompleta">
+                <div>
+                    <div>
+                        <img style="width: 100%;" src="https://www.naturfive.com/images/logo-mega-de-hoje.png" alt="">
+                    </div>
+                    <div style="text-align: center;" id="numerosMegaSTabela">
+        
+                             <span class="fcartao" id="sb01">01</span>
+                             <span class="fcartao" id="sb02">02</span>
+                             <div class="fcartao" id="sb03">03</div>
+                             <div class="fcartao" id="sb04">04</div>
+                             <div class="fcartao" id="sb05">05</div>
+                             <div class="fcartao" id="sb06">06</div>
+                             <div class="fcartao" id="sb07">07</div>
+                             <div class="fcartao" id="sb08">08</div>
+                             <div class="fcartao" id="sb09">09</div>
+                             <div class="fcartao" id="sb10">10</div>
+                            <br>
+        
+        
+                            <div class="fcartao" id="sb11">11</div>
+                            <div class="fcartao" id="sb12">12</div>
+                            <div class="fcartao" id="sb13">13</div>
+                            <div class="fcartao" id="sb14">14</div>
+                            <div class="fcartao" id="sb15">15</div>
+                            <div class="fcartao" id="sb16">16</div>
+                            <div class="fcartao" id="sb17">17</div>
+                            <div class="fcartao" id="sb18">18</div>
+                            <div class="fcartao" id="sb19">19</div>
+                            <div class="fcartao" id="sb20">20</div>
+                            <br>
+        
+                            <div class="fcartao" id="sb21">21</div>
+                            <div class="fcartao" id="sb22">22</div>
+                            <div class="fcartao" id="sb23">23</div>
+                            <div class="fcartao" id="sb24">24</div>
+                            <div class="fcartao" id="sb25">25</div>
+                            <div class="fcartao" id="sb26">26</div>
+                            <div class="fcartao" id="sb27">27</div>
+                            <div class="fcartao" id="sb28">28</div>
+                            <div class="fcartao" id="sb29">29</div>
+                            <div class="fcartao" id="sb30">30</div>
+                            <br>
+        
+                            <div class="fcartao" id="sb31">31</div>
+                            <div class="fcartao" id="sb32">32</div>
+                            <div class="fcartao" id="sb33">33</div>
+                            <div class="fcartao" id="sb34">34</div>
+                            <div class="fcartao" id="sb35">35</div>
+                            <div class="fcartao" id="sb36">36</div>
+                            <div class="fcartao" id="sb37">37</div>
+                            <div class="fcartao" id="sb38">38</div>
+                            <div class="fcartao" id="sb39">39</div>
+                            <div class="fcartao" id="sb40">40</div>
+                            <br>
+        
+                            <div class="fcartao" id="sb41">41</div>
+                            <div class="fcartao" id="sb42">42</div>
+                            <div class="fcartao" id="sb43">43</div>
+                            <div class="fcartao" id="sb44">44</div>
+                            <div class="fcartao" id="sb45">45</div>
+                            <div class="fcartao" id="sb46">46</div>
+                            <div class="fcartao" id="sb47">47</div>
+                            <div class="fcartao" id="sb48">48</div>
+                            <div class="fcartao" id="sb49">49</div>
+                            <div class="fcartao" id="sb50">50</div>
+                        <br>
+        
+                        <div class="fcartao" id="sb51">51</div>
+                        <div class="fcartao" id="sb52">52</div>
+                        <div class="fcartao" id="sb53">53</div>
+                        <div class="fcartao" id="sb54">54</div>
+                        <div class="fcartao" id="sb55">55</div>
+                        <div class="fcartao" id="sb56">56</div>
+                        <div class="fcartao" id="sb57">57</div>
+                        <div class="fcartao" id="sb58">58</div>
+                        <div class="fcartao" id="sb59">59</div>
+                        <div class="fcartao" id="sb60">60</div>
+        
+                    </div>
+                    <div>
+                        <button id="gerarnumerosT">GERAR NUMEROS</button>
+                    </div>
+                <div id="mostrartabela"></div>
+                    <div id="geradorTabelaMagica"></div>
+                </div>
+            </div>
+        
+    </div>
     <footer style="margin-top: 200px;">
         <div class="pe">
             <div class="container">
@@ -184,5 +277,6 @@
             
         </script>
     </footer>
+    <script src="/src/tabela-magica/tabela.js"></script>
 </body>
 </html>
