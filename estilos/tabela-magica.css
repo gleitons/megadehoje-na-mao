@@ -24,14 +24,20 @@
     background-color: rgb(230, 249, 230);
 }
 .tMagica{
-    border: solid black 1px;
+    /*background-color: #686868;*/
+    background-color: #181818;
+    border: solid rgb(255, 255, 255) 1px;
     height: 250px;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: black 1px 1px 10px;
     
     width: 400px;
 }
 .tdNumber{
     text-align: center;
-    border: black solid 1px;
+    border: rgb(48, 48, 48) solid 1px;
     font-size: 30px;
 }
 .contagemNMS{
@@ -69,4 +75,50 @@
     border-radius: 50%;
     margin-left: 10px;
     color: white;
+}
+.cent {
+    width: 180px;
+    height: 80px;
+    /* box-shadow: 16px 14px 20px rgb(41, 41, 41); */
+    border-radius: 12px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cent::before{
+    content: "";
+    background: conic-gradient( #ff0052 
+    20deg, transparent 
+    120deg );
+    width: 341px;
+    height: 259px;
+    position: absolute;
+    margin-left: -170px;
+    margin-top: -133px;
+    animation: rotate 3s linear infinite;
+}
+.cent::after{
+    content: "0";
+    padding-top: 16px;
+    width: 169px;
+    height: 54px;
+    background: #101010;
+    position: absolute;
+    margin-left: -85px;
+    margin-top: -36px;
+    color: #ff0052;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+
 }

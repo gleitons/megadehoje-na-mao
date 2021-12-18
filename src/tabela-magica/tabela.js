@@ -109,7 +109,7 @@ function calculoTabelaM() {
         </tr>
         <tr class="blocsNumber">
             <td class="tdNumber">3</td>
-            <td class="tdNumber">0</td>
+            <td class="tdNumber cent"></td>
             <td class="tdNumber">2</td>
             
         </tr>
