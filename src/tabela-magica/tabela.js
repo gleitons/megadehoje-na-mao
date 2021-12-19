@@ -1,7 +1,19 @@
-function calculoTabelaM() {
+function tabela2440(){
+    const tabelReal = calculoTabelaM(02, 08, 34, 38, 47, 51, 2439);
+    tabMegaSena.innerHTML = `${tabelReal}`
+}
+function tabela2439(){
+    const tabelReal = calculoTabelaM(15, 18, 30, 32, 42, 70, 2438);
+    tabMegaSena.innerHTML = `${tabelReal}`
+}
+//02 08 34 38 47 51
+
+
+function calculoTabelaM(n1, n2, n3, n4, n5, n6, sortMSL) {
+    const sorTMSL = sortMSL;
     const nSorteio = "2438";
     //[4, 11, 19, 25, 37, 55]
-    const nSorteioMS = [15, 18, 30, 40, 42, 70];
+    const nSorteioMS = [n1, n2, n3, n4, n5, n6];
     const pegarl1C1 = nSorteio.split("");
     //04, 11, 19, 25, 37, 55
     
@@ -55,13 +67,15 @@ function calculoTabelaM() {
     //const l1C1T = pegarl1C1[0];
 
 
-    resultTabela.innerHTML = `<h1>Tabela Mágica da Mega-sena</h1>
-    <h2>Contagem e dados do Sorteio ${nSorteio}</h2>
-    <p>RESULTADO:   <strong>${nSorteioMS}</strong></p>
+    const resultTab = resultTabela.innerHTML = `<div class="esconde"><a href="http://bit.ly/aposte-online" target="_blank" rel="follow"><button class="botaoMegadaVirada"></button></a></div>
+    <h1>Tabela Mágica da Mega-sena</h1>
+    <h2>TABELA DA MEGA SENA - PREVISÃO PARA O CONCURSO ${sorTMSL+1}</h2>
+    <h2>Contagem e dados do Sorteio ${sorTMSL}</h2>
+    <p>RESULTADO ANTERIOR DE <STRONG>NÚMERO ${sorTMSL}</STRONG>:   <class class="fAmarelo"><strong>${nSorteioMS}</strong></class></p>
     <table class="contagemNMS">
         <tr class="tipoN">
             <td class="lEsquerdo">NUMERO DO SORTEIO: </td>
-            <td class="lDireito">${nSorteio}</td>
+            <td class="lDireito">${sorTMSL}</td>
         </tr>
         <tr class="tipoN">
             <td class="lEsquerdo">IMPARES: </td>
@@ -91,7 +105,7 @@ function calculoTabelaM() {
             <td class="lEsquerdo">SOMA TOTAL: </td>
             <td class="lDireito">${somaTotal}</td>
         </tr>
-        ${tb}
+        <!--<--${tb}!> -->
     </table>
     <h1>Tabela da Mega-sena, Ganhe agora!!</h1>
     <table class="tMagica">
@@ -127,39 +141,44 @@ function calculoTabelaM() {
         </tr>
         
     </table>
-    <div style="margin-top: 20px; width: 500px; border: 1px solid #000;">${tb}</div>
-    <h2>PROBABILIDADE</h2>
-    ${nSorteioMS}
-    <table class="probabilidadeS">
-        <tr class="Distinto">
-            <td>TODOS OS NÚMEROS GERADOS PELA TABELA: </td>
-            <td class="probDireito">${tb}</td>
-        </tr>
-        <tr class="Distinto">
-            <td>ORDENANDO AS DEZENAS: </td>
-            <td class="probDireito">${arrayOrdemB}</td>
-        </tr>
-        <tr class="Distinto">
-            <td>DIMINUINDO AS DEZENAS: </td>
-            <td class="probDireito">${arrayOrdemC}</td>
-        </tr>
-        <tr class="Distinto">
-            <td>ESCOLHA ENTRE NOSSOS PALPITES - 01:</td>
-            <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[3]}</class> <class class="bolaPalpite">${arrayOrdemC[7]}</class> <class class="bolaPalpite">${arrayOrdemC[12]}</class> <class class="bolaPalpite">${arrayOrdemC[18]}</class> <class class="bolaPalpite">${arrayOrdemC[25]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
-        </tr>
-        <tr class="Distinto">
-            <td></br>02: </br></br></td>
-            <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
-        </tr>
-        <tr class="Distinto">
-            <td></br>03: </br></br></td>
-            <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
-        </tr>
-        <tr class="Distinto">
-            <td></br>04: </br></br></td>
-            <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
-        </tr>
-    </table>`
+    <!--<div style="margin-top: 20px; width: 500px; border: 1px solid #000;">${tb}</div>-->
+    <h2 style="margin: 20px; ">PROBABILIDADE DE GANHAR NA MEGA SENA ${sorTMSL+1}</h2>
+    <!--${nSorteioMS}-->
+    <div class="fundoOneO">
+        <div class="fundoOne"> 
+            <table class="probabilidadeS">
+                <tr class="Distinto">
+                    <td>TODOS OS NÚMEROS GERADOS PELA TABELA: </td>
+                    <td class="probDireito">${tb}</td>
+                </tr>
+                <tr class="Distinto">
+                    <td>ORDENANDO AS DEZENAS: </td>
+                    <td class="probDireito">${arrayOrdemB}</td>
+                </tr>
+                <tr class="Distinto">
+                    <td>DIMINUINDO AS DEZENAS: </td>
+                    <td class="probDireito">${arrayOrdemC}</td>
+                </tr>
+                <tr class="Distinto">
+                    <td>ESCOLHA ENTRE NOSSOS PALPITES - 01:</td>
+                    <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[3]}</class> <class class="bolaPalpite">${arrayOrdemC[7]}</class> <class class="bolaPalpite">${arrayOrdemC[12]}</class> <class class="bolaPalpite">${arrayOrdemC[18]}</class> <class class="bolaPalpite">${arrayOrdemC[25]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
+                </tr>
+                <tr class="Distinto">
+                    <td></br>02: </br></br></td>
+                    <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
+                </tr>
+                <tr class="Distinto">
+                    <td></br>03: </br></br></td>
+                    <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
+                </tr>
+                <tr class="Distinto">
+                    <td></br>04: </br></br></td>
+                    <td class="probDireito"><strong> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> <class class="bolaPalpite">${arrayOrdemC[nSorteioRandom,Math.floor(tamanhoArrayC * Math.random())]}</class> </strong></td>
+                </tr>
+            </table>
+        </div>
+    </div>`
+    return resultTab;
 }
 function CPouI(calcImparPar) {
     const R1 = cPOuImpar(calcImparPar[0]);
@@ -250,6 +269,7 @@ function sPcPOuImpar(numbSomaPrimos){
     }
 }
 
+
 function tabMagic(A1, A2, A3, B1, B2, B3, C1, C2, C3, D1, D2, D3, E1, E2,E3) {
     
     const L1C1 = voltaMenorQ60(`${A1}${A2},${A1}${B1},${A1}${B2},`.split(","));
@@ -270,8 +290,10 @@ function tabMagic(A1, A2, A3, B1, B2, B3, C1, C2, C3, D1, D2, D3, E1, E2,E3) {
     const L5C3 = voltaMenorQ60(`${E3}${D2},${E3}${D3},${E3}${E2}`.split(","));
        
     return `${L1C1}${L1C2}${L1C3} ${L2C1}${L2C2}${L2C3} ${L3C1} ${L3C2}${L3C3} ${L4C1} ${L4C2} ${L4C3} ${L5C1} ${L5C2} ${L5C3}`;    
-
 }
+
+
+
 function  voltaMenorQ60(recebeValorSplit) {
     for(i=0; i< recebeValorSplit[i]; i++)
     if (recebeValorSplit[i]<=60) {

@@ -26,7 +26,7 @@
 .tMagica{
     /*background-color: #686868;*/
     background-color: #181818;
-    border: solid rgb(255, 255, 255) 1px;
+    border: solid #181818 1px;
     height: 250px;
     color: white;
     border-radius: 12px;
@@ -56,8 +56,11 @@
     
 }
 .probabilidadeS{
-    background-color: burlywood;
-    padding: 10px;
+    background-color: rgb(0, 135, 49);
+    
+    padding: 5px;
+    display: relative;
+    
 }
 .Distinto{
     margin-bottom: 10px;
@@ -76,6 +79,43 @@
     margin-left: 10px;
     color: white;
 }
+.botaoMegadaVirada {
+    background-color: #181818;
+    position: relative;
+    width: 216px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.esconde{
+    background-color: white;
+}
+.botaoMegadaVirada::before{
+    content: "";
+    background: conic-gradient( rgb(136, 255, 0) 
+20deg, transparent 
+120deg );
+    position: absolute;
+    width: 918px;
+    height: 299px;
+    margin-left: -464px;
+    margin-top: -151px;
+    animation: rotateMS 2s linear infinite;
+}
+.botaoMegadaVirada::after{
+    content: "MEGA DA VIRADA 2021";
+    background-color: #101010;
+    position: absolute;
+    color: greenyellow;
+    padding: 27px;
+    width: 142px;
+    border-radius: 16px;
+    margin-left: -98px;
+    margin-top: -42px;
+    
+}
+
 .cent {
     width: 180px;
     height: 80px;
@@ -97,13 +137,22 @@
     margin-left: -170px;
     margin-top: -133px;
     animation: rotate 3s linear infinite;
+
 }
 .cent::after{
     content: "0";
     padding-top: 16px;
     width: 169px;
     height: 54px;
-    background: #101010;
+    text-shadow:
+      
+      0 0 21px #f96f9b,
+      0 0 42px #fa3573,
+      0 0 82px #f4135a,
+      0 0 92px #f5125a,
+      0 0 102px #ff0052,
+      0 0 151px #c90040;
+    background: #181818;
     position: absolute;
     margin-left: -85px;
     margin-top: -36px;
@@ -113,6 +162,18 @@
     border-radius: 12px;
 
 }
+.fundoOneO{
+    background: black;
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    z-index: 1;
+}
+.fAmarelo{
+    background-color: yellow;
+
+}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
@@ -122,3 +183,20 @@
     }
 
 }
+@media (max-width:768px) {
+    .fundoOneO{
+        
+        width: 600px;
+    
+    }
+}
+@keyframes rotateMS {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
