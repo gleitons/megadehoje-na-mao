@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="/estilos/style.css">
     <link rel="stylesheet" href="/estilos/resultado.css">
     <link rel="stylesheet" href="estilos/resultado.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/scripts/mega-sena.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/r-mega-sena.js" defer></script>
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
+    <link rel="import" href="">
     
+      <script>
+         $(function () {
+            $("#header").load("/models/header.html");
+            // $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
+            // $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
+            $("#footer").load("/models/footer.html");
+         });
+      </script>
     <title>Mega-sena 2439</title>
 </head>
 <body onload="megaSena2440()">
@@ -66,20 +80,5 @@
     <footer>
         <div id="footer"></div>
     </footer>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="/scripts/mega-sena.js" defer></script>
-    <script src="/scripts/main.js" defer></script>
-    <script src="/scripts/r-mega-sena.js" defer></script>
-    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
-    <link rel="import" href="">
-    
-      <script>
-         $(function () {
-            $("#header").load("/models/header.html");
-            // $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
-            // $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
-            $("#footer").load("/models/footer.html");
-         });
-      </script>
 </body>
 </html>
