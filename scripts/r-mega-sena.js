@@ -1,3 +1,14 @@
+function megaSena2440(){
+    const resultabela = ""
+    /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
+    const resultadoMS =  insereNumeros(2440, "31/12/2021", "378.124.727,48", 12, 15, 23, 32, 33, 46, 5, premiosMegaSena = premiosMS (2, "189.062.363,74", 1712, "50.861,33", "143494", "866,88"), proxSorteio("05/01/2022", "3.000.000,00", 2341));
+    
+    const palpiteMSCorreto = palpiteProxSorteio("05/01/2022", "3.000.000,00", 2341);
+
+    palpiteMSM.innerHTML = `${palpiteMSCorreto} ${resultadoMS}`;
+    tConcurso.innerHTML = `${resultadoMS}`  
+    
+}
 function megaSena2439(){
     /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
     const resultadoMS =  insereNumeros(2439, "18/12/2021", "6.500.000,00", 04, 11, 19, 25, 37, 55, 6, premiosMegaSena = premiosMS (0, "0", 46, "40.082,94", "3.008", "875,67"), proxSorteio("31/12/2021", "350.000.000,00", 2340));
@@ -77,7 +88,7 @@ function proxSorteio(datapSorteio, ValorPSorteio, pSorteio){
     return footerProximo;   
 }
 function premiosMS (ganhadorMS, valorPremioMS, ganhadorQU, valorPremioQU, ganhadorQD, valorPremioQD){
-    const resultMSEscrito = `Foram <strong>${ganhadorMS}</strong> apostas vencedoras da sena, o valor é de <strong>${valorPremioMS}</strong> de reais, <strong>${ganhadorQU}</strong> vencedoras que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ ${valorPremioQU} reais</strong>. Já com 4 acertos (quadra) foram <strong>${ganhadorQD}</strong> apostas ganhadoras, ficando cada um com de <strong>R$ ${valorPremioQD} reais</strong>. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.`;
+    const resultMSEscrito = `Foram <strong>${ganhadorMS}</strong> apostas vencedoras da sena, cada um vai receber o valor de <strong>R$ ${valorPremioMS}</strong> de reais, <strong>${ganhadorQU}</strong> vencedoras que conseguiram acertar 5 números na (quina) e levaram cada um <strong>R$ ${valorPremioQU} reais</strong>. Já com 4 acertos (quadra) foram <strong>${ganhadorQD}</strong> apostas ganhadoras, ficando cada um com de <strong>R$ ${valorPremioQD} reais</strong>. Confira agora mesmo o resultado da <a href="https://megadehoje.com" target="_blank" rel="follow">Mega de Hoje</a>.`;
     
     return [resultMSEscrito, ganhadorMS, valorPremioMS, ganhadorQU,valorPremioQU, ganhadorQD, valorPremioQD]
 };
@@ -276,7 +287,7 @@ function tabelaResultTotalMS (concursot, dataCMSt, valort, bol01t, bol02t, bol03
 
 {   
     const pSorteioMStP = String(pSorteioMSt).value;
-    if (premiosMegaSenaTt[1] ==! 0 ) {
+    if (premiosMegaSenaTt[1] > 0 ) {
         var acumulaougan = `<div class="seGanhador">${premiosMegaSenaTt[1]} Ganhador(es)</div>`  
     } else {
         var acumulaougan = `<div class="seGanhador">ACUMULOU</div>`
