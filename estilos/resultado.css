@@ -400,6 +400,9 @@
     margin: auto;
     background-color: rgb(0, 112, 51);
 }
+.lite {
+    font-weight: normal;
+}
 @media (max-width: 600px) {
     .linhaFlex {
         display: block;

@@ -110,85 +110,107 @@ function insereNumeros (concurso, dataCMS, valor, bol01, bol02, bol03, bol04, bo
         <h2>Como jogar na Mega-sena</h2>
         <p>A Mega-Sena paga milhões para o acertador dos 6 números sorteados. Ainda é possível ganhar prêmios ao acertar 4 ou 5 números dentre os 60 disponíveis no volante de apostas. Para realizar o sonho de ser o próximo milionário, você deve marcar de 6 a 15 números do volante, podendo deixar que o sistema escolha os números para você (Surpresinha) e/ou concorrer com a mesma aposta por 2, 4 ou 8 concursos consecutivos (Teimosinha). <a href="http://bit.ly/aposte-online" target="_blank"><button class="botaoCliqueAqui">APOSTE ONLINE</button></a></p>
     </div>
+    <h2>Descrição para instagram</h2>
+    <h3>Resultado</h3>
     <div class="hash">
-        <div>
-            Resultado Mega-sena 2438 dia 15/12/2021 - quarta-feira
-            @megadehoje - Sentimento Milionário para ganhar na mega sena
-            https://megadehoje.com
-            @megadehoje Link de acesso na bio, resultados e palpites, acesse;
-            #ganharnamegasena
-            #megadehoje
-            #loteria
-            #ganharnaloto
-            #sentimentos
-            #palpitemegasena
-            #sentimentosmilionarios
-            #megasenavirada
-            #megasena
-            #lotofacil
-            #ficarrico
-            #leidaatracao
-            #leidaatração
+        <div class="lite">
+            Resultado Mega-sena ${concurso} dia ${dataCMS} - ${diaS} </br>
+            @megadehoje - Sentimento Milionário para ganhar na mega sena</br>
+            https://megadehoje.com</br>
+            @megadehoje Link de acesso na bio, resultados e palpites, acesse;</br>
+            #ganharnamegasena</br>
+            #megasena${concurso}</br>
+            #palpitemegasena${concurso+1}</br>
+            #${concurso}</br>
+            #${concurso+1}</br>
+            #ganharnamegasena</br>
+            #megadehoje</br>
+            #loteria</br>
+            #ganharnaloto</br>
+            #sentimentos</br>
+            #palpitemegasena</br>
+            #sentimentosmilionarios</br>
+            #megasenavirada</br>
+            #megasena</br>
+            #lotofacil</br>
+            #ficarrico</br>
+            #leidaatracao</br>
+            #leidaatração</br>
         </div>
-        <div>
-            https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-2438.html
-            Sorteio da mega-sena aconteceu hoje, 15/12/2021, com prêmio estimado em R$ 6.549.381,39 de reais, confira agora mesmo o resultado da mega-sena 2438
-            @megadehoje - Sentimento Milionário para ganhar na mega sena
-            https://megadehoje.com
-            @megadehoje Link de acesso na bio, resultados e palpites, acesse;
-            #ganharnamegasena
-            #megadehoje
-            #loteria
-            #ganharnaloto
-            #sentimentos
-            #palpitemegasena
-            #sentimentosmilionarios
-            #megasenavirada
-            #megasena
-            #lotofacil
-            #ficarrico
-            #leidaatracao
-            #leidaatração
+        <h3>Front Resultado</h3>
+        <div class="lite">
+            https://megadehoje.com/resultados/mega-sena/resultado-mega-sena-${concurso}.html</br>
+            Sorteio da mega-sena aconteceu hoje, ${dataCMS}, com prêmio estimado em R$ ${valor} de reais, confira agora mesmo o resultado da mega-sena ${concurso}</br>
+            @megadehoje - Sentimento Milionário para ganhar na mega sena</br>
+            https://megadehoje.com</br>
+            @megadehoje Link de acesso na bio, resultados e palpites, acesse;</br>
+            #megasena${concurso}</br>
+            #palpitemegasena${concurso+1}</br>
+            #${concurso}</br>
+            #${concurso+1}</br>
+            #ganharnamegasena</br>
+            #megadehoje</br>
+            #loteria</br>
+            #ganharnaloto</br>
+            #sentimentos</br>
+            #palpitemegasena</br>
+            #sentimentosmilionarios</br>
+            #megasenavirada</br>
+            #megasena</br>
+            #lotofacil</br>
+            #ficarrico</br>
+            #leidaatracao</br>
+            #leidaatração</br>
         </div>
-        <div>
-            É isso mesmo, saiu o resultado do concurso 2438, realizado a partir das 20:00 hs, dia 15/12/2021, quarta-feira, as dezenas sorteadas foram: 4 - 11 - 19 - 25 - 37 - 55. Foram 1 apostas vencedoras da sena, o valor é de 6.549.381,39 de reais, 99 vencedoras que conseguiram acertar 5 números na (quina) e levaram cada um R$ 19.581,95 reais. Já com 4 acertos (quadra) foram 5.073 apostas ganhadoras, ficando cada um com de R$ 545,91 reais. Confira agora mesmo o resultado da Mega de Hoje.
-            @megadehoje - Sentimento Milionário para ganhar na mega sena
-            https://megadehoje.com
-            @megadehoje Link de acesso na bio, resultados e palpites, acesse;
-            #ganharnamegasena
-            #megadehoje
-            #loteria
-            #ganharnaloto
-            #sentimentos
-            #palpitemegasena
-            #sentimentosmilionarios
-            #megasenavirada
-            #megasena
-            #lotofacil
-            #ficarrico
-            #leidaatracao
-            #leidaatração
+        <h3>Resultado Final numeros</h3> 
+        <div class="lite">
+            É isso mesmo, saiu o resultado do concurso ${concurso}, realizado a partir das 20:00 hs, dia ${dataCMS}, ${diaS}, as dezenas sorteadas foram: ${bol01} - ${bol02} - ${bol03} - ${bol04} - ${bol05} - ${bol06}. ${premiosMegaSenaT[0]}. Na imagem mostra os vencedores da sena, o valor foi de R$ ${valor} de reais. Confira agora mesmo o resultado da Mega de Hoje.</br>
+            @megadehoje - Sentimento Milionário para ganhar na mega sena</br>
+            https://megadehoje.com</br>
+            @megadehoje Link de acesso na bio, resultados e palpites, acesse;</br>
+            #megasena${concurso}</br>
+            #palpitemegasena${concurso+1}</br>
+            #${concurso}</br>
+            #${concurso+1}</br>
+            #ganharnamegasena</br>
+            #megadehoje</br>
+            #loteria</br>
+            #ganharnaloto</br>
+            #sentimentos</br>
+            #palpitemegasena</br>
+            #sentimentosmilionarios</br>
+            #megasenavirada</br>
+            #megasena</br>
+            #lotofacil</br>
+            #ficarrico</br>
+            #leidaatracao</br>
+            #leidaatração</br>
         </div>
-        https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-2439.html
-        <div>
-            @megadehoje - Sentimento Milionário para ganhar na mega sena
-            https://megadehoje.com
-            Palpite da mega-sena 2338
-            Palpite da mega-sena 2338, 15/12/2021, com prêmio estimado em R$ 6.500.000,00 de reais,
-            @megadehoje Link de acesso na bio, resultados e palpites, acesse;
-            #ganharnamegasena
-            #megadehoje
-            #loteria
-            #ganharnaloto
-            #sentimentos
-            #palpitemegasena
-            #sentimentosmilionarios
-            #megasenavirada
-            #megasena
-            #lotofacil
-            #ficarrico
-            #leidaatracao
-            #leidaatração
+        
+        <h3>Palpite da mega-sena, concurso ${concurso+1}</h3> 
+        <div class="lite">
+            https://megadehoje.com/palpites/mega-sena/palpite-da-mega-sena-${concurso+1}.html</br>
+            @megadehoje - Sentimento Milionário para ganhar na mega sena</br>
+            https://megadehoje.com</br>
+            Palpite da mega-sena ${concurso+1}, ${pSorteioMS} de reais,</br>
+            @megadehoje Link de acesso na bio, resultados e palpites, acesse;</br>
+            #megasena${concurso}</br>
+            #palpitemegasena${concurso+1}</br>
+            #${concurso}</br>
+            #${concurso+1}</br>
+            #ganharnamegasena</br>
+            #megadehoje</br>
+            #loteria</br>
+            #ganharnaloto</br>
+            #sentimentos</br>
+            #palpitemegasena</br>
+            #sentimentosmilionarios</br>
+            #megasenavirada</br>
+            #megasena</br>
+            #lotofacil</br>
+            #ficarrico</br>
+            #leidaatracao</br>
+            #leidaatração</br>
         </div>
     </div>`
 
