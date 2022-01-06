@@ -1,3 +1,14 @@
+function megaSena2441(){
+    const resultabela = ""
+    /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
+    const resultadoMS =  insereNumeros(2441, "05/01/2022", "3.000.000,00", 9, 41, 42, 46, 47, 54, 3, premiosMegaSena = premiosMS (0, "0", 18, "83.666,84", "1.588", "1.354,80"), proxSorteio("08/01/2022", "6.000.000,00", 2341));
+    
+    const palpiteMSCorreto = palpiteProxSorteio("08/01/2022", "6.000.000,00", 2341);
+
+    palpiteMSM.innerHTML = `${palpiteMSCorreto} ${resultadoMS}`;
+    tConcurso.innerHTML = `${resultadoMS}`  
+    
+}
 function megaSena2440(){
     const resultabela = ""
     /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado */
@@ -340,7 +351,7 @@ function tabelaResultTotalMS (concursot, dataCMSt, valort, bol01t, bol02t, bol03
                     <div class="numeros"><div >${bol06t}</div></div>
                 </div>
             </div>
-            <p>Resultado não carregou? <button onclick="recarregarPagina()">Recarregar</button></p>
+            <p>Confira o seu jogo! <button onclick="recarregarPagina()">Estou com sorte</button></p>
         </div>
         <div class="cDireita">
             <table class="resultadoVerde">
