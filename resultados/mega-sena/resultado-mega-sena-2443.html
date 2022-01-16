@@ -9,35 +9,43 @@
     <link rel="stylesheet" href="/estilos/style.css">
     <link rel="stylesheet" href="/estilos/resultado.css">
     <link rel="stylesheet" href="estilos/resultado.css">
-    
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/scripts/mega-sena.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/r-mega-sena.js" defer></script>
     <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon">
     <link rel="import" href="">
     
-      
-    <title>Palpite mega sena 2443</title>
+      <script>
+         $(function () {
+            $("#header").load("/models/header.html");
+            // $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
+            // $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
+            $("#footer").load("/models/footer.html");
+         });
+      </script>
+    <title>Mega-sena 2443</title>
 </head>
-<body onload="megaSena2442()">
+<body onload="megaSena2443()">
     <header>
         <div id="header"></div>
 
     </header>
-    
     <main>
         <div class="corpoGeral">
             <div>
                 <div class="maisNoticias">
                     
                 </div>
-                <div style="font-weight: ;" class="artigoCentral">
+                <div class="artigoCentral">
                     <article style="display: block;">
                         <!-- Titulo Resultado da Mega sena-->
-                        <div id="palpiteMSM"></div>
-                        <!-- <h1 class="infodoJava"><div id="palpiteMSM">Aguardando Concurso mega-sena... <p class="recaLoad">Por favor, desative o bloqueador de anúncios para habilitar todas as funções do site gratuitamente => <button onclick="recarregarPagina()">Recarregar</button></p> </div></h1> -->
+                        <h1 class="infodoJava"><div id="tConcurso">Aguardando Concurso mega-sena... <p class="recaLoad">Por favor, desative o bloqueador de anúncios para habilitar todas as funções do site gratuitamente => <button onclick="recarregarPagina()">Recarregar</button></p> </div></h1>
                        
                         <div style="display: none;">
                             <!-- FIM - Titulo Resultado da Mega sena-->
                             <!-- Subitulo Resultado da Mega sena-->
-                            <h2 class="subTitleSorteio" ><div id="sTConcuros"></div></h2>
+                            <h2 class="subTitleSorteio" ><div id="palpiteMSM"></div></h2>
                             <!-- FIM - Subitulo Resultado da Mega sena-->
                              <!-- Imagem front-->
                              <div class="tabelaCompleta">
@@ -72,17 +80,5 @@
     <footer>
         <div id="footer"></div>
     </footer>
-    <script src="/scripts/mega-sena.js" defer></script>
-    <script src="/scripts/main.js" defer></script>
-    <script src="/scripts/r-mega-sena.js" defer></script>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function () {
-           $("#header").load("/models/header.html");
-           // $("#resultadoms").load("/models/modelo-resultado-mega-sena.html");  
-           // $("#imagefront").load("/models/modelo-capa-mega-sena.html");          
-           $("#footer").load("/models/footer.html");
-        });
-     </script>
 </body>
 </html>
