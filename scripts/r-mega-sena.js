@@ -1,3 +1,14 @@
+function megaSena2446(){
+    const resultabela = ""
+    /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado  015	112532374756 */
+    const resultadoMS =  insereNumeros(2446, "22/01/2022", "22.000.000,00", 1, 13, 27, 41, 51, 58, 6, premiosMegaSena = premiosMS (0, "0", 74, "41.305,51", "4.344", "1.005,19"), proxSorteio("25/01/2022", "28.500.000,00", 2347));
+    
+    const palpiteMSCorreto = palpiteProxSorteio("25/01/2022", "28.500.000,00", 2347);
+
+    palpiteMSM.innerHTML = `${palpiteMSCorreto} ${resultadoMS}`;
+    tConcurso.innerHTML = `${resultadoMS}`  
+    
+}
 function megaSena2445(){
     const resultabela = ""
     /* 2 - terça, 3 - Quarta, 4 - Quinta, 6 - Sábado  015	112532374756 */
