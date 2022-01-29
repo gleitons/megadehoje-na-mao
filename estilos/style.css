@@ -131,9 +131,7 @@ nav a:hover {
 }
 article{    
     top: 10%;    
-    position: relative;    
-    
-	
+    position: relative;   
 }
 article > a > button {
     cursor: pointer;
