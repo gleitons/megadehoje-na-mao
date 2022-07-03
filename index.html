@@ -16,7 +16,27 @@
 </head>
 <body>
     <header>
-        <div id="header"></div>
+        <div class="cabecalho">
+            <div class="logo"  id="logoId" >
+                <a href="/"><img src="/src/logo-mega-de-hoje.png" alt=""></a>
+            </div>
+            <nav class="itensMenu" id="nav" >
+                <button id="botaoMobileP">Menu</button>
+                    <ul id="itensMenu">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/resultados.html">Resultados</a></li>
+                        <li><a href="/palpites.html">Palpites</a></li>
+                        <li><a href="/models/todos-os-resultados.html">Todos os Resultados</a></li>
+                        <li><a href="/tabela-magica.html">Tabela Mágica</a></li>
+                        <li><a href="/produtos.html">Produtos</a></li>
+                        <li><a href="/sobre.html">Sobre</a></li>
+                        <li><a href="/contato.html">Contato</a></li>
+                        
+             
+                    </ul>
+            </nav>
+        </div>
+        <!-- <div id="header"></div> -->
         <div class="imagemApresentacaoIndex">
             <div class="imagem-frontal">                
                <div class="fundoMegaResultado">
@@ -31,8 +51,12 @@
         <div>
             <h1>Ultimos resultados da Mega-sena</h1>
             <h2>confira os ultimos palpites e resultados da mega-sena</h2>
-            <div>
-                <div class="ResultFront">
+            <div id="resultadosIndex">                
+                <script>
+                    let s = 2452;
+                    for(let i = 0; i <= 11; i++){                    
+                    document.getElementById('resultadosIndex').innerHTML += `
+                    <div class="ResultFront">
                     <div class="bolasConferir" id="bConferir">
                         <div class="bc1" id="bc1"></div>
                         <div class="bc1" id="bc2"></div>
@@ -42,192 +66,15 @@
                         <div class="bc1" id="bc6"></div>
                     </div>
                     <article>
-                        <h2>Mega-sena 2452</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2452.html"><button>Conferir</button></a>
+                        <h2>Mega-sena ${s}</h2>
+                        <a href="/resultados/mega-sena/resultado-mega-sena-${s}.html"><button>Conferir</button></a>
                     </article>
                 </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2451</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2451.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2450</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2450.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2449</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2449.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2448</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2448.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2447</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2447.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2446</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2446.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2445</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2445.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2444</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2444.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2443</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2443.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2442</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2442.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2441</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2441.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2440</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2440.html"><button>Conferir</button></a>
-                    </article>
-                </div>
-                <div class="ResultFront">
-                    <div class="bolasConferir" id="bConferir">
-                        <div class="bc1" id="bc1"></div>
-                        <div class="bc1" id="bc2"></div>
-                        <div class="bc1" id="bc3"></div>
-                        <div class="bc1" id="bc4"></div>
-                        <div class="bc1" id="bc5"></div>
-                        <div class="bc1" id="bc6"></div>
-                    </div>
-                    <article>
-                        <h2>Mega-sena 2439</h2>
-                        <a href="/resultados/mega-sena/resultado-mega-sena-2439.html"><button>Conferir</button></a>
-                    </article>
-                </div>
+                ` 
+                s--;
+                }        
+               </script>
+                
                 
             </div>
             <div>
@@ -247,7 +94,7 @@
     
       <script>
          $(function () {
-            $("#header").load("models/header.html");
+            // $("#header").load("models/header.html");
             $("#resultadoms").load("resultado-mega-sena.html");   
             $("#footer").load("models/footer.html");
          });
