@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados Mega Sena</title>
+</head>
+<body>
+    <div id="todosConcursos">
+
+    </div>
+    <script>
+        const url = 'https://loteriascaixa-api.herokuapp.com/api/lotofacil/latest'
+        async function mostra() {
+
+            const respon = await fetch(url)
+            const data = await respon.json();
+            const ultimo = data.concurso;
+            var resultMega = []
+
+            for (let i = ultimo; i >= 1; i--) {
+                const respon = await fetch(`https://loteriascaixa-api.herokuapp.com/api/lotofacil/${i}`)
+                const data = await respon.json();
+                resultMega.push(data);
+                console.log(i)
+
+               
+
+
+            }
+            const copiar = JSON.stringify(resultMega)
+            todosConcursos.innerHTML = copiar
+
+
+        }
+        mostra();
+    </script>
+    
+</body>
+</html>

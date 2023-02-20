@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8921692840146247"
-     crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <meta charset="UTF-8">
-    <meta charset="utf-8">  <meta name="keywords" content="mega de hoje, mega sena, resultado da loto, resultado da mega sena, mega-sena da virada, mega da virada">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><link rel="canonical" href="https://megadehoje.com/">
-    <meta name="description" content="Mega de hoje, resultados e dicas da mega-sena e loterias nacional. Mega de hoje possui o último resultado da mega-sena. megadehoje.">
+    <meta charset="utf-8">
+    <meta name="keywords"
+        content="mega de hoje, mega sena, resultado da loto, resultado da mega sena, mega-sena da virada, mega da virada">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="canonical" href="https://megadehoje.com/">
+    <meta name="description"
+        content="Mega de hoje, resultados e dicas da mega-sena e loterias nacional. Mega de hoje possui o último resultado da mega-sena. megadehoje.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="/estilos/resultado.css">
     <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
-    
+
     <title>Mega de Hoje - Resultados da Mega Sena e Loteria Nacional</title>
 </head>
+
 <body>
     <header>
         <div class="cabecalho">
-            <div class="logo"  id="logoId" >
+            <div class="logo" id="logoId">
                 <a href="/"><img src="/src/logo-mega-de-hoje.png" alt=""></a>
             </div>
-            <nav class="itensMenu" id="nav" >
+            <nav class="itensMenu" id="nav">
                 <button id="botaoMobileP">Menu</button>
-                    <ul id="itensMenu">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/resultados.html">Resultados</a></li>
-                        <li><a href="/palpites.html">Palpites</a></li>
-                        <li><a href="/models/todos-os-resultados.html">Todos os Resultados</a></li>
-                        <li><a href="/tabela-magica.html">Tabela Mágica</a></li>
-                        <li><a href="/produtos.html">Produtos</a></li>
-                        <li><a href="/sobre.html">Sobre</a></li>
-                        <li><a href="/contato.html">Contato</a></li>
-                        
-             
-                    </ul>
+                <ul id="itensMenu">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/resultados.html">Resultados</a></li>
+                    <li><a href="/palpites.html">Palpites</a></li>
+                    <li><a href="/models/todos-os-resultados.html">Todos os Resultados</a></li>
+                    <li><a href="/tabela-magica.html">Tabela Mágica</a></li>
+                    <li><a href="/produtos.html">Produtos</a></li>
+                    <li><a href="/sobre.html">Sobre</a></li>
+                    <li><a href="/contato.html">Contato</a></li>
+
+
+                </ul>
             </nav>
         </div>
         <!-- <div id="header"></div> -->
         <div class="imagemApresentacaoIndex">
-            <div class="imagem-frontal">                
-               <div class="fundoMegaResultado">
-                   <h1>Mega de Hoje</h1>
-                   <h2>Resultados da mega-sena e loteria nacional</h2>
-               </div>
+            <div class="imagem-frontal">
+                <div class="fundoMegaResultado">
+                    <h1>Mega de Hoje</h1>
+                    <h2>Resultados da mega-sena e loteria nacional</h2>
+                </div>
             </div>
         </div>
     </header>
-        
+
     <main>
         <div>
             <h1>Ultimos resultados da Mega-sena</h1>
             <h2>confira os ultimos palpites e resultados da mega-sena</h2>
-            <div id="resultadosIndex">                
+            <div id="resultadosIndex">
                 <script>
                     let s = 2452;
-                    for(let i = 0; i <= 11; i++){                    
-                    document.getElementById('resultadosIndex').innerHTML += `
+                    for (let i = 0; i <= 11; i++) {
+                        document.getElementById('resultadosIndex').innerHTML += `
                     <div class="ResultFront">
                     <div class="bolasConferir" id="bConferir">
                         <div class="bc1" id="bc1"></div>
@@ -70,35 +76,42 @@
                         <a href="/resultados/mega-sena/resultado-mega-sena-${s}.html"><button>Conferir</button></a>
                     </article>
                 </div>
-                ` 
-                s--;
-                }        
-               </script>
-                
-                
+                `
+                        s--;
+                    }        
+                </script>
+
+
             </div>
             <div>
 
             </div>
 
         </div>
-        <div><p>Menu acima e footer abaixo</p></div>
+        <div>
+            <p>Menu acima e footer abaixo</p>
+        </div>
+        <div id="todosConcursos">
+
+        </div>
         <div id="resultadoms"></div>
     </main>
     <div id="footer"></div>
     <script src="scripts/mega-sena.js"></script>
     <script src="/scripts/resultados.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    
-    
-    
-      <script>
-         $(function () {
+
+
+
+    <script>
+        $(function () {
             // $("#header").load("models/header.html");
-            $("#resultadoms").load("resultado-mega-sena.html");   
+            $("#resultadoms").load("resultado-mega-sena.html");
             $("#footer").load("models/footer.html");
-         });
-      </script>
+        });
+    </script>
     <script src="/scripts/mostrar-resultados.js"></script>
+    
 </body>
+
 </html>
